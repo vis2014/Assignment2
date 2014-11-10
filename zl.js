@@ -1,6 +1,6 @@
 var h=500;
 var w=960;
-// 颜色函数
+
 var colors=d3.scale.category20()//创建序数比例尺和包括20中颜色的输出范围
 //(1)定义节点和联系对象数组
 		var dataset={
