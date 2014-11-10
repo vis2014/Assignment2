@@ -8,6 +8,7 @@ If you want to get the number of someone you can move your mouse to the text and
 I use some sections of __my own contacts__ for the homework. it about 20 people, and the name is right but the number is not.
  
 ##**Function**:
+
      If I want to find someone number, I need to click my mouse. This is the basic function.
 Sometimes I may lose connection with somebody of my contact. There are many situations ,for example, I lose his or her number or he had changed his number. Or their mobile phone didn’t work. So I can use the telephone contacts net to search who keeps the better relationship with him or her to know what’s the matter. 
 
