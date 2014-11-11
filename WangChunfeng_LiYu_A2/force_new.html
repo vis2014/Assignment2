@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Force-Directed Layout over larger graphs</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="force_new.css"/>
+</head>
+<body>
+
+<b style="margin-left: 50px;font-size: 25px;color: Blue"><strong>Shop items co-relation Mapping</strong></b><br/> <br/>
+<div style="float: left;margin-top: 30px;margin-left: 25px">
+Node Title (Hover):
+<select name="nodeHoverTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+</select><br/><br/>
+Threshold:
+<input type="text" id="Thres" style="width: 40px"/>
+<input type="button" class = "button" value="Apply" onclick = "reloadNetwork()" />
+<br/><br/>
+    <br/><br/>
+    <strong>Introduction:</strong><br/><br/>
+    This is a visualization of supermarket shopping <br/><br/>
+    transactions which is a classic problem in data <br/><br/>
+    mining defined as "assosiation rules mining".<br/><br/>
+    <br/><br/>
+    <strong>Tips: You can</strong><br/><br/>
+    <ul>
+        <li>Click the node to highlight all the nodes and edges <br/>
+    it is related to. And also Lable each node with its <br/>
+    id or name.</li>
+        <li>Filter edges with its weight using given threshold.</li>
+    </ul>
+    <em><strong>Please Open in firefox.</strong></em>
+</div>
+
+<div id="chart" style="float: right"></div>
+
+
+
+<script type="text/javascript" src="force_new.js"></script>
+</body>
+</html>
