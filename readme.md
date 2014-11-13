@@ -21,4 +21,4 @@
 + We obtain the data which includes the relationships of the Four big families, the introductions of the Four big families and their family members and the photos of the Four big families' members. We format the data to a json document in the first place. Then we format the data to a js document because we can use the data more conveniently without the server software. This is our data preprocessing.
  
 ##Screen Shots
-###Link : [http://211.147.15.14/UCAS_14_Fall/index.php/Wangfengyang_Zhuyanguanzhong_A2#Data_Preprocess](http://211.147.15.14/UCAS_14_Fall/index.php/Wangfengyang_Zhuyanguanzhong_A2#Data_Preprocess)
+###Link : [Screen Shots](http://211.147.15.14/UCAS_14_Fall/index.php/Wangfengyang_Zhuyanguanzhong_A2#Screen_Shots)
