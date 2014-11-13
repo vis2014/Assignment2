@@ -1,23 +1,24 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
-
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
-
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout –b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
-
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
-
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
-
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
-
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+#Assignment II: Network Visualization/Graph Drawing
+ 
+##Description
+ 
+###Data Obtainment :
+First we search the source which we need on the Internet.
+Second we select and summarize the data which we obtain from the Internet.
+Third we format the data to a format which we need.
+ 
+###Data Description :
+Our data is about the Four big families which had lived during the period of the Republic of China. The Four big families are Chiang family, Soong family, Kung family and Chen family. They were responsible for much of China's management of finance, politics, economy, and law. We describe the relationship of the Four big families and show the introductions of every family and every person on our webpage. We hope that people can learn about the knowledge intuitively.
+ 
+###Methodology :Empty!
+ 
+###Find Knowledge from the Visualization :
+1.We can learn about the introductions of every family and every person.
+2.We can learn about the relationship of the Four big families. And we can also learn about the principle members of every family.
+3.We can learn about the connections through marriages among them. And we can also learn about the different circumstances of the Four big families. The Chiang family, Soong family and Kung family are still booming today. They have many family members. But Chen family is destitute. We search the source of their family members difficultly.
+ 
+##Data Preprocess
+We obtain the data which includes the relationships of the Four big families, the introductions of the Four big families and their family members and the photos of the Four big families' members. We format the data to a json document in the first place. Then we format the data to a js document because we can use the data more conveniently without the server software. This is our data preprocessing.
+ 
+##Screen Shots
+###Link : [http://211.147.15.14/UCAS_14_Fall/index.php/Wangfengyang_Zhuyanguanzhong_A2#Data_Preprocess](http://211.147.15.14/UCAS_14_Fall/index.php/Wangfengyang_Zhuyanguanzhong_A2#Data_Preprocess)

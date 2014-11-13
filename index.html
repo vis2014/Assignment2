@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>D3: Force layout</title>
+	<script type="text/javascript" src="js/d3.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<style type="text/css">
+		#tooltip {
+			position: absolute;
+			width: 200px;
+			height: auto;
+			padding: 10px;
+			background-color: #cfe2f3;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+			-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+			pointer-events: none;
+		}
+		#tooltip.hidden {
+			display: none;
+		}
+		#tooltip p {
+			margin: 0;
+			font-family: sans-serif;
+			font-size: 16px;
+			line-height: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="tooltip" class="hidden">
+		<p><strong>人物简介：</strong></p>
+		<p><span id="value">100</span></p>
+	</div>
+
+	<script type="text/javascript">
+
+			/*d3.json("data/graph.json", function(json) {
+				var dataset = json;
+				forcegraph(dataset);
+			});*/
+
+			forcegraph(dataset);
+
+			function forcegraph(dataset) {
+				var w = 1300;var h = 900;
+				var force = d3.layout.force()
+				.links(dataset.edges)//添加边数据
+				.nodes(dataset.nodes)//添加点数据
+				.size([w, h])
+				.linkDistance([30])
+				.charge([-3000])//设置电荷量
+				.start();
+
+				var colors = d3.scale.category20();
+				var r = 35;
+
+				//生成svg
+				var svg = d3.select("body")
+				.append("svg")
+				.attr("width", w)
+				.attr("height", h);
+
+				//添加边
+				var edges = svg.selectAll("line")
+				.data(force.links())//force.links()  返回   dataset.edges
+				.enter()
+				.append("line")
+				.style("stroke", function(d, i){return d.color;})//设置画笔颜色
+				.style("stroke-width", 4);//画笔宽度
+
+				//构造点所在的画布g
+				//添加edges要放到上面，不然线会显示到圆点上
+				var nodes = svg.selectAll(".nodes")
+				.data(force.nodes()) //force.nodes()  返回   dataset.nodes
+				.enter().append("g")
+				.on("mouseover", mouseover)
+				.on("mouseout", mouseout)
+				.attr("class", "nodes")
+				.attr("t", "t")
+
+				.call(force.drag);
+
+				var rectw = 60;
+				var recth = 80;
+
+				nodes.append("rect")
+				.attr("width", rectw)
+				.attr("height", recth)
+				.style("fill", function(d, i) {
+					return colors(i);
+				})
+
+				nodes.append("svg:image")  
+	        	.attr("class", "circle")  
+	        	.attr("xlink:href", function(d) {return "image/" + d.image;})  
+	        	.attr("x", "5px")  
+	        	.attr("y", "5px")  
+	        	.attr("width", "50px")  
+	        	.attr("height", "50px"); 
+				
+				nodes.append("text")
+				.attr("x", rectw/2)
+				.attr("y", rectw+15)
+				.attr("text-anchor", "middle")//文字居中
+				.text(function(d) { return d.name; });
+				
+				//Every time the simulation "ticks", this will be called
+				force.on("tick", function() {
+					edges
+					.attr("x1", function(d) { return d.source.x + rectw/2; })
+					.attr("y1", function(d) { return d.source.y + recth/2;})
+					.attr("x2", function(d) { return d.target.x + rectw/2; })
+					.attr("y2", function(d) { return d.target.y + rectw/2;});
+
+					nodes.attr("transform", function(d) { 
+						return "translate(" + d.x + "," + d.y + ")"; 
+					})
+					.attr("x", function(d){return d.x})
+					.attr("y", function(d){return d.y})
+					.attr("desc", function(d){return d.desc})
+				});
+			}
+
+			function mouseover(){
+				var x = d3.select(this).attr("x")*1+70;
+				var y = d3.select(this).attr("y");
+				var desc = d3.select(this).attr("desc");
+
+				d3.select("#tooltip")
+				.style("left", x + "px")
+				.style("top", y + "px")
+				.select("#value").text(desc);
+				//显示提示条=
+				d3.select("#tooltip").classed("hidden", false);
+			}
+
+			function mouseout(){
+				d3.select("#tooltip").classed("hidden", true);
+			}
+
+		</script>
+	</body>
+	</html>
