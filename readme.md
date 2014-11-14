@@ -1,4 +1,4 @@
-#Family Relationships visualizition 
+#Family Relationships Visualizition 
 ### A brief introduction of our work.
 What we have done is to visualize **the relationships between people in a family**. 
 The **basic relationships** in family including the relationships between man and wife, parents and children, brothers and sisters, uncle and nephew, which including some complicated network relationships. 
