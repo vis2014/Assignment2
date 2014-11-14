@@ -1,0 +1,25 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+line.edge {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+h3{
+    text-align: center;
+}
+.controlList{
+    text-align: right;
+    width: 300px;
+    float: right;
+     }
+select{
+    width:100px;
+}
+
+.char{
+    float:right;
+}

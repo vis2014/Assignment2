@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mouse Brain Network</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="force_new.css"/>
+</head>
+<body>
+<h3 style="font-family:verdana">老鼠大脑的网络图</h3></br>
+<div class="controlList" >
+<li>顶点大小:
+<select name="nodeSize" id="nodeSize" onchange="refreshNetworkSettings()">
+    <option value="5" selected>5</option>
+    <option value="4">4</option>
+    <option value="6">6</option>
+    <option value="8">8</option>
+    <option value="10">10</option>
+    <option value="12">12</option>
+    <option value="14">24</option>
+</select><br/>
+</li>
+    <li>
+顶点颜色决定量:
+<select name="nodeFillColor" id="nodeFillColor" onchange="refreshNetworkSettings()">
+    <option value="value" selected>默认</option>
+</select><br/>
+</li>
+    <li>
+顶点显示标签:
+<select name="nodeHoverTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+</select><br/>
+    </li>
+    <li>
+边粗细的决定量:
+<select name="edgeThickness" id="edgeThickness" onchange="refreshNetworkSettings()">
+    <option value="value" selected>默认</option>
+</select>
+    </li><br>
+<input type="button" class = "button" value="点我显示" onclick = "reloadNetwork()" />
+
+<br/>
+</div>
+<div id="chart"></div>
+<script type="text/javascript" src="force_new.js"></script>
+</body>
+</html>
