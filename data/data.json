@@ -1,0 +1,534 @@
+{
+  "nodes": [
+    {
+      "number": "784641",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "y25562172896",
+      "address": "87",
+      "ISP": "2"
+    },
+    {
+      "number": "y26959498945",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "363202",
+      "address": "576",
+      "ISP": "3"
+    },
+    {
+      "number": "y41430271044",
+      "address": "576",
+      "ISP": "2"
+    },
+    {
+      "number": "y58059283983",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "95812",
+      "address": "25",
+      "ISP": "1"
+    },
+    {
+      "number": "365280",
+      "address": "87",
+      "ISP": "1"
+    },
+    {
+      "number": "y27370573693",
+      "address": "25",
+      "ISP": "2"
+    },
+    {
+      "number": "y35376613644",
+      "address": "576",
+      "ISP": "2"
+    },
+    {
+      "number": "1023148",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "y27665458290",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "y36769271414",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "y27665579474",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "y36759052744",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "292288",
+      "address": "553",
+      "ISP": "1"
+    },
+    {
+      "number": "y22552512823",
+      "address": "551",
+      "ISP": "3"
+    },
+    {
+      "number": "y22904574183",
+      "address": "551",
+      "ISP": "3"
+    },
+    {
+      "number": "794280",
+      "address": "772",
+      "ISP": "1"
+    },
+    {
+      "number": "749290",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "g79308607",
+      "address": "579",
+      "ISP": "1"
+    },
+    {
+      "number": "274078",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "296382",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "5556875",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "259399",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "743961",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "6462520",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "796206",
+      "address": "87",
+      "ISP": "1"
+    },
+    {
+      "number": "y36762264470",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "y35372174993",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "y27036054123",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "y25842539710",
+      "address": "551",
+      "ISP": "2"
+    },
+    {
+      "number": "298965",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "294731",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "292029",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "763707",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "1008566",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "777598",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "366123",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "1021062",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "389699",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "274395",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "1018568",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "292851",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "1027982",
+      "address": "551",
+      "ISP": "1"
+    },
+    {
+      "number": "285977",
+      "address": "551",
+      "ISP": "1"
+    }
+  ],
+  "schemas": {
+    "nodes": [
+      {
+        "name": "number",
+        "type": "string"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "ISP",
+        "type": "string"
+      }
+    ],
+    "edges": [
+      {
+        "name": "count",
+        "type": "int"
+      },
+      {
+        "name": "source",
+        "type": "int"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      },
+      {
+        "name": "time",
+        "type": "int"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "count": 1,
+      "source": 0,
+      "time": 141,
+      "target": 1
+    },
+    {
+      "count": 1,
+      "source": 0,
+      "time": 351,
+      "target": 2
+    },
+    {
+      "count": 1,
+      "source": 3,
+      "time": 77,
+      "target": 4
+    },
+    {
+      "count": 1,
+      "source": 3,
+      "time": 13,
+      "target": 5
+    },
+    {
+      "count": 1,
+      "source": 6,
+      "time": 141,
+      "target": 1
+    },
+    {
+      "count": 1,
+      "source": 6,
+      "time": 351,
+      "target": 2
+    },
+    {
+      "count": 1,
+      "source": 7,
+      "time": 141,
+      "target": 1
+    },
+    {
+      "count": 1,
+      "source": 7,
+      "time": 351,
+      "target": 2
+    },
+    {
+      "count": 1,
+      "source": 4,
+      "time": 24,
+      "target": 8
+    },
+    {
+      "count": 3,
+      "source": 4,
+      "time": 358,
+      "target": 9
+    },
+    {
+      "count": 1,
+      "source": 6,
+      "time": 24,
+      "target": 8
+    },
+    {
+      "count": 3,
+      "source": 6,
+      "time": 358,
+      "target": 9
+    },
+    {
+      "count": 1,
+      "source": 10,
+      "time": 40,
+      "target": 1
+    },
+    {
+      "count": 1,
+      "source": 10,
+      "time": 20,
+      "target": 2
+    },
+    {
+      "count": 1,
+      "source": 10,
+      "time": 43,
+      "target": 11
+    },
+    {
+      "count": 1,
+      "source": 10,
+      "time": 25,
+      "target": 12
+    },
+    {
+      "count": 1,
+      "source": 10,
+      "time": 12,
+      "target": 13
+    },
+    {
+      "count": 1,
+      "source": 14,
+      "time": 26,
+      "target": 15
+    },
+    {
+      "count": 1,
+      "source": 14,
+      "time": 69,
+      "target": 16
+    },
+    {
+      "count": 1,
+      "source": 14,
+      "time": 31,
+      "target": 17
+    },
+    {
+      "count": 1,
+      "source": 18,
+      "time": 120,
+      "target": 19
+    },
+    {
+      "count": 1,
+      "source": 18,
+      "time": 19,
+      "target": 20
+    },
+    {
+      "count": 2,
+      "source": 18,
+      "time": 38,
+      "target": 21
+    },
+    {
+      "count": 1,
+      "source": 18,
+      "time": 77,
+      "target": 4
+    },
+    {
+      "count": 1,
+      "source": 18,
+      "time": 13,
+      "target": 5
+    },
+    {
+      "count": 1,
+      "source": 18,
+      "time": 78,
+      "target": 14
+    },
+    {
+      "count": 1,
+      "source": 22,
+      "time": 10,
+      "target": 23
+    },
+    {
+      "count": 1,
+      "source": 24,
+      "time": 18,
+      "target": 25
+    },
+    {
+      "count": 1,
+      "source": 22,
+      "time": 25,
+      "target": 26
+    },
+    {
+      "count": 1,
+      "source": 27,
+      "time": 92,
+      "target": 28
+    },
+    {
+      "count": 1,
+      "source": 2,
+      "time": 40,
+      "target": 29
+    },
+    {
+      "count": 1,
+      "source": 2,
+      "time": 20,
+      "target": 30
+    },
+    {
+      "count": 1,
+      "source": 27,
+      "time": 66,
+      "target": 31
+    },
+    {
+      "count": 1,
+      "source": 2,
+      "time": 70,
+      "target": 1
+    },
+    {
+      "count": 1,
+      "source": 32,
+      "time": 54,
+      "target": 23
+    },
+    {
+      "count": 1,
+      "source": 33,
+      "time": 22,
+      "target": 23
+    },
+    {
+      "count": 1,
+      "source": 34,
+      "time": 120,
+      "target": 23
+    },
+    {
+      "count": 1,
+      "source": 35,
+      "time": 19,
+      "target": 23
+    },
+    {
+      "count": 1,
+      "source": 36,
+      "time": 16,
+      "target": 10
+    },
+    {
+      "count": 1,
+      "source": 37,
+      "time": 15,
+      "target": 38
+    },
+    {
+      "count": 2,
+      "source": 39,
+      "time": 8,
+      "target": 40
+    },
+    {
+      "count": 1,
+      "source": 41,
+      "time": 26,
+      "target": 42
+    },
+    {
+      "count": 1,
+      "source": 43,
+      "time": 92,
+      "target": 40
+    },
+    {
+      "count": 1,
+      "source": 44,
+      "time": 101,
+      "target": 45
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<script type="text/javascript" src="../d3.js"></script>
+<body>
+<div id="chart"></div>
+Node Fill Color:
+<select name="nodeFillColor" id="nodeFillColor" onchange="refreshNetworkSettings()">
+</select>
+Node Title (Hover):
+<select name="nodeHoverTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+</select>
+Edge Thickness:
+<select name="edgeThickness" id="edgeThickness" onchange="refreshNetworkSettings()">
+    <option value="value" selected>default</option>
+</select>
+<input type="button" class = "button" value="Apply" onclick = "reloadNetwork()"/>
+<br/>    <br/>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
