@@ -17,4 +17,4 @@
 + links:英雄间的关系，包括关系和描述。
 + group:英雄所属势力描述，包括名称、图片、描述。
 
-###5.[Home]http://211.147.15.14/UCAS_14_Fall/index.php/GumMojie_Chenjinwen_A2
+###5.[Home](http://211.147.15.14/UCAS_14_Fall/index.php/GumMojie_Chenjinwen_A2).
