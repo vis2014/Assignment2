@@ -1,4 +1,4 @@
-﻿#Assignment II
+#Assignment II
 
 ###1.Introduction
 
@@ -22,11 +22,5 @@ image/.： This folder contains all of the used images.
 To see more details, please click here.
 http://211.147.15.14/UCAS_14_Fall/index.php/Tianchuang_Sunchao_A2
 
-###4.Data Source
-Head portrait of the game characters：[http://www.sengoku.cn/bbs/forum.php?mod=viewthread&tid=256560#pid7543105]
-
-Relationship of the game characters：[http://wenku.baidu.com/link?url=IiEDnsu9L_7PwHrp4Em-HTFHAbIwXMiY_0KJ6fikomUhr-S7xcyXpGR4KQNeoomSbjVHav_G8GdIX45MMr_-p9XrjzaHbzP8djfUk_jsF0q]
-
-The data has been transformed to "data/sanguozhi11.json".
 
 
