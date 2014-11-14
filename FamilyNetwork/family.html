@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="family.css"/>
+</head>
+<body>
+<b style="font-size: 30px">Family relationship</b><br/>
+<div id="option">
+Relationship:
+    <select id="relationType" onchange="refreshNetworkSettings()">
+        <option value="1" selected>default</option>
+        <option value="2">husband - wife</option>
+        <option value="3">father/mother - son/daughter</option>
+        <option value="4">brother - sister</option>
+        <option value="5">uncle/aunt - nephew/niece</option>
+    </select>
+
+</div>
+<div id='container'></div>
+<script src="js/data.js"></script>
+
+<script src="js/family.js"></script>
+</body>
+</html>
