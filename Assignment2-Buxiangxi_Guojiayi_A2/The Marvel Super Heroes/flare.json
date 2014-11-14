@@ -1,0 +1,136 @@
+{
+
+    "name": "Marvel",
+    "image": "Marvel.gif",
+    "explanation": "The Marvel Super Heroes is an American / Canadian animated television series starring five comic-book superheroes from Marvel Comics. It was first syndicated, on U.S. television, in 1966 and was Marvel's first TV series.Produced by Grantray-Lawrence Animation, headed by Grant Simmons, Ray Patterson and Robert Lawrence, it was an umbrella series of five segments, each approximately seven minutes long, broadcast on local television stations that aired the show at different times.",
+    "children": [
+        {
+            "name": "The Avengers",
+            "image": "The Avengers.gif",
+            "explanation": "The Avengers is a team of superheroes. the Avengers originally consisted of Iron Man, Ant-Man, the Wasp, Thor, and the Hulk. The original Captain America was discovered, trapped in ice (issue #4), and joined the group after they revived him. A rotating roster became a hallmark, although one theme remained consistent: the Avengers fight the foes no single superhero can withstand. The team, famous for its battle cry of Avengers Assemble!, has featured humans, mutants, robots, aliens, supernatural beings, and even former villains.",
+            "children": [
+                {
+                    "name": "Captain America",
+                    "image": "Captain America.jpg",
+                    "explanation": " Captain America is a superhero, created by American cartoonists Joe Simon and Jack Kirby.Captain America wears a costume that bears an American flag motif, and is armed with a nearly indestructible shield that he throws at foes. The character is usually depicted as the alter ego of Steve Rogers, a frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States government's imminent efforts in World War II. Near the end of the war, he was trapped in ice and survived in suspended animation until he was revived in the present day."
+                },
+                {
+                    "name": "Iron man",
+                    "image": "Iron man.gif",
+                    "explanation": " An American billionaire playboy, industrialist, and ingenious engineer, Tony Stark suffers a severe chest injury during a kidnapping in which his captors attempt to force him to build a weapon of mass destruction. He instead creates a powered suit of armor to save his life and escape captivity. Later, Stark augments his suit with weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. "
+                },
+                {
+                    "name": "Hulk",
+                    "image": "Hulk.gif",
+                    "explanation": "The Hulk (Bruce Banner) is a superhero created by Stan Lee and Jack Kirby, and first appeared in The Incredible Hulk #1 (May 1962).Hulk is portrayed as a large green humanoid that possesses near limitless superhuman strength and great invulnerability, attributes that grow more potent the angrier he becomes."
+                },
+                {
+                    "name": "Black widow",
+                    "image": "Black widow.gif",
+                    "explanation": "Natasha Alianovna Romanova is the first character to take on the Black Widow codename in the modern mainstream Marvel Comics. The character has been associated with several superhero teams in the Marvel Universe, including the Avengers, the Defenders, the Champions,SHIELD,and the Thunderbolts."
+                },
+                {
+                    "name": "Hawkeye",
+                    "image": "Hawkeye.gif",
+                    "explanation": "Clint Barton was born in Waverly, Iowa. At a young age he lost both of his parents in a car accident. Clint adapted his archery skills to become a star carnival attraction, a master archer called Hawkeye,otherwise known as “The World’s Greatest Marksman”."
+                },
+                {
+                    "name": "Thor",
+                    "image": "Thor.gif",
+                    "explanation": "Thor is a hammer-wielding god associated with thunder, lightning, storms, oak trees, strength, the protection of mankind, and also hallowing, healing and fertility. "
+                },
+                {
+                    "name": "Hydra",
+                    "image": "Hydra.gif",
+                    "explanation": "Hydra is a terrorist organization . Though often capitalized, the name is not an acronym but rather a reference to the mythical Lernaean Hydra, and Marvel's Official Handbook of the Marvel Universe hardcover presents it as Hydra. The organization's motto references the myth of the Hydra, stating that if a head is cut off, two more will take its place proclaiming their resilience and growing strength in the face of resistance. Hydra agents often wear distinctive green garb featuring a serpent motif."
+                },
+                {
+                    "name": "Red Skull",
+                    "image": "Red Skull.gif",
+                    "explanation": " He is the archenemy of the superhero Captain America, and is portrayed as a Nazi agent.He has appeared as a recurring enemy of Captain America in various ongoing series, limited series and alternate reality series in the years since."
+                },
+                {
+                    "name": "Loki",
+                    "image": "Loki.gif",
+                    "explanation": "Loki is a fictional character, a supervillain that appears in comic books by Marvel Comics. He is the adoptive brother and archenemy of Thor. He is based on the being of the same name from Norse mythology. The character first appeared historically in Venus No. 6 (August 1949) and in modern day in Journey into Mystery No. 85 (October 1962). The character was created by writer Stan Lee, scripter Larry Lieber, and penciller Jack Kirby."
+                }
+            ]
+        },
+        {
+            "name": "X-Man",
+            "image": "X-Man.gif",
+            "explanation": "The X-Men are mutants: humans born with superhuman abilities. They fight to keep the peace between normal humans and mutants in a world where anti-mutant bigotry is widespread. The X-Men are also famous for their frequent encounters with their archenemy Magneto, the Brotherhood of Mutants, the mutant exterminating Sentinels, Mister Sinister, Apocalypse and the Hellfire Club.",
+            "children": [
+                {
+                    "name": "Wolverine-Logan",
+                    "image": "Wolverine.gif",
+                    "explanation": "Wolverine is a mutant, born with the ability to rapidly recover from any injury or ailment. He possesses long retractable claws that protrude from the backs of his hands. His skeleton is laced with a fictional metal known as adamantium, which makes it indestructible."
+                },
+                {
+                    "name": "Professor X",
+                    "image": "Professor X.gif",
+                    "explanation": "Charles Xavier is the founder of the X-Men and runs a private school that shelters and trains mutants (people who were born with superhuman abilities). He fights for peace and equality between humans and mutants in a world where anti-mutant bigotry is widespread. He, too, is a mutant, a very powerful telepath who can read and control minds."
+                },
+                {
+                    "name": "Beast",
+                    "image": "Beast.jpg",
+                    "explanation": "He is a founding member of the mutant team of superheroes known as the X-Men. When he was first introduced, the Beast is a mutant who possesses ape-like superhuman physical strength and agility and oversized hands and feet, though he otherwise appears to be a normal human being."
+                },
+                {
+                    "name": "Jean Grey",
+                    "image": "Marvel Girl.jpg",
+                    "explanation": "Jean Grey is a mutant born with telepathic and telekinetic powers. Her powers first manifested when she saw her childhood friend being hit by a car. She is a caring, nurturing figure, but she also has to deal with being an Omega-level mutant and the physical manifestation of the cosmic Phoenix Force. "
+                },
+                {
+                    "name": "Storm",
+                    "image": "Storm.jpg",
+                    "explanation": "Best known as a longtime member and sometimes leader of the X-Men, Storm is the former queen consort of Wakanda, a title once held by marriage to King T'Challa, better known as the Black Panther. Storm is one of the most frequently seen X-Men, having appeared in most of the comic books, all of the animated television series, nearly all of the video games, and in four installments of the live-action X-Men film series, where she is portrayed by actress Halle Berry. Her primary mutant power is control of the weather."
+                },
+                {
+                    "name": "Magneto",
+                    "image": "Magneto.gif",
+                    "explanation": "Magneto is a mutant, born with the ability to generate and control magnetic fields, which gives him power over metal objects. In a world where anti-mutant bigotry is fierce and widespread, Magneto believes mutants must dominate normal humans if they are to survive as a race, which frequently brings him into conflict with the X-Men. He is most often a supervillain, but sometimes an antihero or even superhero."
+                },
+                {
+                    "name": "Mystique",
+                    "image": "Mystique.jpg",
+                    "explanation": "Mystique has been a supervillain, founding her own Brotherhood of Mutants and assassinating several important people involved in mutant affairs. Mystique herself is a mutant, a shapeshifter whose natural appearance includes blue skin and yellow eyes."
+                }
+            ]
+        },
+        {
+            "name": "Fantastic Four",
+            "image": "Fantastic Four.jpg",
+            "explanation": "The Fantastic Four is a fictional superhero team appearing in comic books published by Marvel Comics.The Fantastic Four was the first superhero team created by writer-editor Stan Lee and artist/co-plotter Jack Kirby, who developed a collaborative approach to creating comics with this title that they would use from then on. As the first superhero team title produced by Marvel Comics, it formed a cornerstone of the company's 1960s rise from a small division of a publishing company to a pop culture conglomerate. ",
+            "children": [
+                {
+                    "name": "Mr Fantastic",
+                    "image": "Mr. Fantastic.jpg",
+                    "explanation": "He is a founding member of the Fantastic Four. Richards possesses a mastery of mechanical, aerospace and electrical engineering, chemistry, all levels of physics, and human and alien biology. BusinessWeek listed Mr. Fantastic as one of the top ten most intelligent fictional characters in American comics.[1] He is the inventor of the spacecraft which was bombarded by cosmic radiation on its maiden voyage, granting the Fantastic Four their powers. Richards gained the ability to stretch his body into any shape he desires."
+                },
+                {
+                    "name": "Invisible Woman",
+                    "image": "Invisible Woman.jpg",
+                    "explanation": "She was the first female superhero created by Marvel in the Silver Age of Comics. Like the other founding members of the Fantastic Four, Sue received her powers after being exposed to a cosmic storm. Her primary power deals with light waves, allowing her to render herself and others invisible. She can also project powerful fields of invisible psionic energy which she uses for a variety of offensive and defensive effects. "
+                },
+                {
+                    "name": "Human Torch",
+                    "image": "Human Torch.jpg",
+                    "explanation": "Like the rest of the Fantastic Four, Jonathan Johnny Storm gained his powers on a spacecraft bombarded by cosmic rays. He can engulf his entire body in flames, is able to fly, can absorb fire harmlessly into his own body, and can control any nearby fire by sheer force of will. Flame on!, which the Torch customarily shouts when activating his full-body flame effect, has become his catchphrase."
+                },
+                {
+                    "name": "The Thing",
+                    "image": "The Thing.jpg",
+                    "explanation": "He is a founding member of the Fantastic Four. His trademark orange rocky appearance, sense of humor, blue eyes, and famous battle cry, It's clobberin' time!, make him a very recognizable comic book character. "
+                }
+            ]
+        },
+        {
+            "name": "Spider-Man",
+            "image": "Spider-Man.gif",
+            "explanation": "Spider-Man is a superhero created by writer-editor Stan Lee and writer-artist Steve Ditko. Lee and Ditko conceived the character as an orphan being raised by his Aunt May and Uncle Ben, and as a teenager, having to deal with the normal struggles of adolescence in addition to those of a costumed crimefighter. Spider-Man's creators gave him super strength and agility, the ability to cling to most surfaces, shoot spider-webs using wrist-mounted devices of his own invention (which he called web-shooters), and react to danger quickly with his spider-sense, enabling him to combat his foes."
+        }
+    ]
+}
+
+
