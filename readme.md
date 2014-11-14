@@ -1,23 +1,23 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+##copyright
+__you can not use the source code before the final check by the teacher.__
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+designed by __wangzhuo__ and __yijia__.
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout –b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
+##data source
+We use python to get the relationships from Yijia's [renren](http://www.renren.com/339805241) account,and the acount id is 339805241.
 
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
+We got __name__, __gender__, __account id__ and some other informations. But we found it hard to get the __target__ from Renren, so we developd it by ourselves.You can see the source data in json file.
 
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
+##description
+*   we add [weight] to calculate the out-degree of a person, which shows all the friends of a person.The more friends you have, the deeper of color of black you will own.
+*   what's more, we add a function to search one's influence by someone's name. Once you hit the search button, we will show the name in another color, and you will see the influence by the different levels of balck color.
+*   BFS method to add influence function.
 
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
+##Online
+View our results [here](http://yijia.ws/pages/force_new.html) online.
 
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+##offline
+To see all effects, we recommand you to use firefox. If you must use chrome, please set your local server.
+
+ex, for python, you can type: __python -m SimpleHTTPServer 8888__, then you can visit [http://localhost:8888](http://localhost:8888).
+

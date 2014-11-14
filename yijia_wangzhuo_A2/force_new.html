@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Force-Directed Layout over larger graphs</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="force_new.css"/>
+</head>
+<body>
+<form onsubmit="return false;">
+<fieldset>
+<legend><b>Network Attribute Mapping</b></legend>
+<center>
+Shape:
+<select name="nodeShape" id="nodeShape" onchange="refreshNetworkSettings()">
+    <option value="circle" selected>circle</option>
+    <!--<option value="rect">rect</option>-->
+</select>
+Size:
+<select name="nodeSize" id="nodeSize" onchange="refreshNetworkSettings()">
+    <option value="7" selected>7</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+</select>
+Fill Color:
+<select name="nodeFillColor" id="nodeFillColor" onchange="refreshNetworkSettings()">
+    <option value="weight">weight</option>
+</select>
+Title:
+<select name="nodeHoverTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+</select>
+Edge Thickness:
+<select name="edgeThickness" id="edgeThickness" onchange="refreshNetworkSettings()">
+    <option value="value" selected>default</option>
+</select>
+<input type="button" class = "button" value="Apply" onclick = "reloadNetwork()"/>
+
+<font color = "red">
+<b> &nbsp;&nbsp;&nbsp; Name:</b>
+</font>
+<input type="text" width="100px" height="200px" id="targetName" placeholder="type a name to search" onchange ="findInfluence()"/>
+    <input type="button" id="ensure" value="ensure" onclick = "findInfluence()"/>
+</center>
+</fieldset>
+</form>
+<p>
+<center>
+    To see all effects,we recommand you to use firefox. And you can type a name to search one's friend-influence, ex: 61EyF0, qk04oS.
+</center>
+<br/>    <br/>
+<div id="chart"></div>
+<script type="text/javascript" src="force_new.js"></script>
+</body>
+</html>
