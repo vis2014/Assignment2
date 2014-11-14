@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node circle {
+  stroke: white;
+  stroke-width: 1.5px;
+  opacity: 2.0;
+}
+
+line {
+  stroke:#616161;
+  stroke-width: 1.5px;
+  stroke-opacity: 1.0;
+}
+
+</style>
+<body>
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="force_new.js"></script>
+<br/>
+<h1><b>CoAuthor Relation Mapping</b></h1><br/>
+<h2><b>过滤条件:</b></h2>
+每位作者的合作次数
+<select name="nodeCount" id="nodeCount" onchange="refreshNetworkSettings()">
+    <option value="1" selected>大于等于1次</option>
+    <option value="2">大于等于2次</option>
+    <option value="3">大于等于3次</option>
+    <option value="4">大于等于4次</option>
+    <option value="5">大于4次</option>
+    <!--<option value="rect">rect</option>-->
+</select>
+两位作者之间的合作强度
+<select name="edgeCount" id="edgeCount" onchange="refreshNetworkSettings()">
+    <option value="1" selected>大于等于1次</option>
+    <option value="2">大于等于2次</option>
+    <option value="3">大于等于3次</option>
+    <option value="4">大于等于4次</option>
+    <option value="5">大于4次</option>
+</select>
+<br/> 
+<script>
+refreshNetworkSettings();
+data = {
+          nodes: [
+                  {size: 1446,node_count:3,name:"aa"},
+                  {size: 626,node_count:1,name:"bb"},
+                  {size: 6189,node_count:2,name:"cc"}
+
+                  ],
+        links: [
+                  {source: 0,target: 1},
+                  {source: 0,target: 2}
+        
+
+                ]
+        }
+d3.json("data/co_data_3.json", function(error, graph) {
+
+var onClickFunction = function(d){
+  var circle = d3.select(this);
+  circle
+      .select(".node_image")
+      .attr("xlink:href","pink.png")
+      .attr("x", "-32px")
+      .attr("y", "-32px")
+      .attr("width", node_width)
+      .attr("height", node_width);
+
+  node.select(".mytext")
+      .attr("text-anchor", "left")
+      .attr("font-size", 15)
+      .attr('stroke', 'black')
+      .attr("fill","#8B2323")
+      .attr('stroke-width', 2) 
+      .text(function(o){
+        return isConnected(o,d)?d.name:null;
+      });
+
+  node
+      .select(".node_image")
+      .attr("xlink:href",function(o){
+        return isConnected(o,d)?"pink.png":"blue.png";
+      })
+      .attr("x", "-32px")
+      .attr("y", "-32px")
+      .attr("width", node_width)
+      .attr("height", node_width); 
+}
+
+function isConnected(a, b) {
+    return isConnectedAsTarget(a, b) || isConnectedAsSource(a, b) || a.index == b.index;
+}
+function isConnectedAsSource(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+
+function isConnectedAsTarget(a, b) {
+    return linkedByIndex[b.index + "," + a.index];
+}
+function isEqual(a, b) {
+    return a.index == b.index;
+}
+
+function node_width(d) { return 30*Math.pow( d.node_count/3, 1/2); }
+
+var width = 3000;
+var height = 2000;
+var nodes;
+var links;
+    nodes=graph.nodes;
+    links=graph.links;
+/*    var force = d3.layout.force()
+              .nodes(nodes)
+              .links(links)
+              .charge(-150)
+              .linkDistance(300)
+              .friction(1.0)
+              .gravity(0.6)
+              .size([width,height])
+              .start();*/
+var force = d3.layout.force()
+    .nodes(nodes)
+    .links(links)
+    .charge(10)
+    .linkDistance(800)
+    .size([width, height])
+    .start();
+
+var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+var selected_links=svg.selectAll(".link").filter(links,function(d){
+                if (d.edge_count>1){return this;
+                }else{return null;}})
+
+var link = svg.selectAll("line")
+            .data(links)
+            .enter().append("line")
+
+var selected_nodes=svg.selectAll(".node").filter(nodes,function(d){
+                if (d.node_count>1){return this;
+                }else{return null;}})
+
+var node = svg.selectAll(".node")
+              .data(nodes)
+              .enter().append("g")
+              .attr("class", "node")
+              .call(force.drag);
+
+ 
+node
+  .append("circle")
+  .attr("class","mynode");
+
+svg
+  .append("marker")
+  .attr("id", "arrowhead")
+  .attr("refX", 6 + 7)
+  .attr("refY", 2)
+  .attr("markerWidth", 6)
+  .attr("markerHeight", 4)
+  .attr("orient", "auto")
+  .append("path")
+  .attr("d", "M 0,0 V 4 L6,2 Z");
+
+force
+  .on("tick",tick);
+
+node
+    .append("svg:image")
+    .attr("xlink:href","blue.png")
+    .attr("class", "node_image")
+    .attr("x", "-32px")
+    .attr("y", "-32px")
+    .attr("width", node_width)
+    .attr("height", node_width)
+    .on("click", onClickFunction);
+
+node.append("text")
+    .attr("class","mytext")
+
+function tick() {
+  link
+    .attr("x1", function(d) { return d.source.x; })
+    .attr("y1", function(d) { return d.source.y; })
+    .attr("x2", function(d) { return d.target.x; })
+    .attr("y2", function(d) { return d.target.y; });
+
+//  node.attr("x", function(d) { return d.x; })
+//      .attr("y", function(d) { return d.y; });
+  node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+});
+
+</script>
+
+</body>

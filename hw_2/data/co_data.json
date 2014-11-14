@@ -1,0 +1,21 @@
+{
+
+  "links": [{
+    "source": 1,
+    "target": 2,
+    "value":100
+  }],
+  "nodes": [{
+    "node_count": 2,
+    "id": 2,
+    "name": 2
+  },{
+    "id": 0,
+    "name": 1,
+    "node_count": 1
+  }, {
+    "id": 1,
+    "name": 2,
+    "node_count": 5
+  }]
+}
