@@ -1,0 +1,59 @@
+{
+  "nodes":[
+    {"name":"张儒清"},
+    {"name":"出现在"},
+    {"name":"个人信息"},
+    {"name":"浏览页面"},
+    {"name":"过去"},
+    {"name":"现在"},
+    {"name":"未来"},
+    {"name":"人人网"},
+    {"name":"新浪微博"},
+    {"name":"豆瓣音乐"},
+    {"name":"北邮人论坛"},
+    {"name":"我学网"},
+    {"name":"谷歌学术"},
+    {"name":"张儒清"},
+    {"name":"出现在"},
+    {"name":"个人信息"},
+    {"name":"浏览页面"},
+    {"name":"年龄：20"},
+    {"name":"兴趣：旅游宠物电影"},
+    {"name":"出生地：安徽"},
+    {"name":"信息可视化"},
+    {"name":"d3教程"},
+    {"name":"d3的使用"},
+    {"name":"JS语言"},
+    {"name":"d3对复杂网络的分析"},
+    {"name":"数据挖掘"}
+    
+   
+  
+   
+  ],
+  "links":[
+    {"source":0,"target":1},
+    {"source":0,"target":2},
+    {"source":0,"target":3},
+    {"source":1,"target":7},
+    {"source":1,"target":8},
+    {"source":1,"target":9},
+    {"source":1,"target":10},
+    {"source":1,"target":11},
+    {"source":1,"target":12},
+    {"source":2,"target":17},
+    {"source":2,"target":18},
+    {"source":2,"target":19},
+    {"source":3,"target":4},
+    {"source":3,"target":5},
+    {"source":3,"target":6},
+    {"source":4,"target":20},
+    {"source":5,"target":21},
+    {"source":5,"target":22},
+    {"source":5,"target":23},
+    {"source":6,"target":24},
+    {"source":6,"target":25}
+    
+  
+  ]
+}

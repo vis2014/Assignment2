@@ -1,0 +1,111 @@
+<html>
+<meta charset="utf-8">
+<title>微博人物关系</title>
+<style type="text/css">
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor:pointer;
+}
+
+.nodetext {
+  fill: #000;
+  font-size:12px;
+  cursor:pointer;
+  pointer-events:none;
+ }
+</style>
+
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script type="text/javascript">	
+d3.select("body").style("background-color", "white");
+	var width = 1000;
+    var height =700;
+	
+	//取得20个颜色的序列
+	var color = d3.scale.category20();
+	
+	//定义画布
+	var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+	
+	//定义力学结构
+	var force = d3.layout.force()
+		.charge(-150)
+		.linkDistance(250)
+		.size([width, height]);	
+	
+	//读取数据
+	d3.json("2-2.json", function(error, graph) {
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start();
+
+	  
+	//定义连线
+	var link = svg.selectAll(".link")
+	  .data(graph.links)
+	  .enter()
+	  .append("line")
+	  .attr("class", "link")
+	  .attr("stroke-opacity","0.4")
+	  .attr("stroke", function(d) { return color(d.group*5); })
+	  .style("stroke-width", function(d) { return  Math.sqrt(d.group); });
+	  
+      
+	  
+	//定义节点标记
+	var node = svg.selectAll(".node")
+	  .data(graph.nodes)
+	  .enter()
+	  .append("g")
+	  .call(force.drag);
+	
+	
+	//标记鼠标悬停的标签
+	node.append("title")
+	  .text(function(d) { return d.name; });
+	
+	//节点上显示的姓名
+	node.append("text")
+	  .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .attr('stroke', 'black')
+      .attr('stroke-width', function (d) {
+                    return 0;
+                }) 
+	  .text(function(d) { return d.name; });
+	
+    //节点上显示人物头像
+	node
+	   .append("svg:image")
+       .attr("class", "circle")
+       .attr("xlink:href", function(d,i){
+         //根据类型来使用图片
+         return "image/img"+i+".jpg";
+      })
+      .attr("x", "-32px")
+      .attr("y", "-32px")
+      .attr("width", "30px")
+      .attr("height", "30px")
+
+	//开始力学动作
+	force.on("tick", function() {
+		link.attr("x1", function(d) { return d.source.x; })
+			.attr("y1", function(d) { return d.source.y; })
+			.attr("x2", function(d) { return d.target.x; })
+			.attr("y2", function(d) { return d.target.y; });
+		
+		node.attr("transform", function(d){ return "translate("+d.x+"," + d.y + ")";});
+	});
+	});
+			
+</script>
+
+</body>
+</html>

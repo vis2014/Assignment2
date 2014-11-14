@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node circle {
+  stroke: white;
+  stroke-width: 1.5px;
+  opacity: 2.0;
+}
+
+line {
+  stroke:#616161;
+  stroke-width: 1.5px;
+  stroke-opacity: 1.0;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script>
+
+data = {
+          nodes: [
+                  {size: 1446,name:"孙俪"},
+                  {size: 626,name:"邓超"},
+                  {size: 6189,name:"赵薇"},
+                  {size: 1615,name:"马云"},
+                  {size: 1704,name:"潘石屹"},
+                  {size: 2525,name:"任志强"},
+                  {size: 2464,name:"黄晓明"},
+                  {size: 1644,name:"佟大为"},
+                  {size: 4019,name:"杨幂"},
+                  {size: 623,name:"李连杰"},
+                  {size: 5501,name:"文章"},
+                  {size: 5643,name:"谢娜"},
+                  {size: 5390,name:"何炅"},
+                  {size: 2435,name:"张杰"},
+                  {size: 1440,name:"邓紫棋"},
+                  {size: 1524,name:"黄磊"},
+                  {size: 2687,name:"舒淇"},
+                  {size: 1517,name:"范冰冰"},
+                   {size: 3503,name:"杨澜"},
+                  {size: 2448,name:"王菲"}
+                  ],
+        links: [
+                  {source: 0,target: 1},
+                  {source: 0,target: 2},
+                  {source: 0,target: 6},
+                  {source: 0,target: 7},
+                  {source: 0,target: 8},
+                  {source: 0,target: 10},
+                  {source: 0,target: 11},
+                  {source: 0,target: 12},
+                  {source: 0,target: 14},
+                  {source: 0,target: 17},
+                  {source: 0,target: 19},
+                  {source: 1,target: 0},
+                  {source: 1,target: 2},
+                  {source: 1,target: 3},
+                  {source: 1,target: 6},
+                  {source: 1,target: 8},
+                  {source: 1,target: 10},
+                  {source: 1,target: 11},
+                  {source: 1,target: 12},
+                  {source: 1,target: 16},
+                  {source: 1,target: 17},
+                  {source: 2,target: 0},
+                  {source: 2,target: 1},
+                  {source: 2,target: 3},
+                  {source: 2,target: 5},
+                  {source: 2,target: 6},
+                  {source: 2,target: 7},
+                  {source: 2,target: 8},
+                  {source: 2,target: 9},
+                  {source: 2,target: 11},
+                  {source: 2,target: 12},
+                  {source: 2,target: 13},
+                  {source: 2,target: 16},
+                  {source: 2,target: 18},
+                  {source: 2,target: 19},
+                  {source: 4,target: 2},
+                  {source: 4,target: 3},
+                  {source: 4,target: 5},
+                  {source: 4,target: 18},
+                  {source: 5,target: 2},
+                  {source: 5,target: 3},
+                  {source: 5,target: 4},
+                  {source: 5,target: 18},
+                  {source: 6,target: 0},
+                  {source: 6,target: 1},
+                  {source: 6,target: 2},
+                  {source: 6,target: 3},
+                  {source: 6,target: 7},
+                  {source: 6,target: 8},
+                  {source: 6,target: 9},
+                  {source: 6,target: 10},
+                  {source: 6,target: 11},
+                  {source: 6,target: 12},
+                  {source: 6,target: 13},
+                  {source: 6,target: 14},
+                  {source: 6,target: 16},
+                  {source: 6,target: 19},
+                  {source: 7,target: 0},
+                  {source: 7,target: 1},
+                  {source: 7,target: 2},
+                  {source: 7,target: 6},
+                  {source: 7,target: 8},
+                  {source: 7,target: 11},
+                  {source: 7,target: 15},
+                  {source: 7,target: 19},
+                  {source: 8,target: 0},
+                  {source: 8,target: 1},
+                  {source: 8,target: 2},
+                  {source: 8,target: 3},
+                  {source: 8,target: 6},
+                  {source: 8,target: 7},
+                  {source: 8,target: 9},
+                  {source: 8,target: 11},
+                  {source: 8,target: 12},
+                  {source: 8,target: 15},
+                  {source: 8,target: 18},
+                  {source: 8,target: 19},
+                  {source: 9,target: 3},
+                  {source: 9,target: 8},
+                  {source: 9,target: 10},
+                  {source: 10,target: 0},
+                  {source: 10,target: 1},
+                  {source: 10,target: 2},
+                  {source: 10,target: 3},
+                  {source: 10,target: 4},
+                  {source: 10,target: 5},
+                  {source: 10,target: 7},
+                  {source: 10,target: 8},
+                  {source: 10,target: 9},
+                  {source: 10,target: 11},
+                  {source: 10,target: 12},
+                  {source: 10,target: 14},
+                  {source: 10,target: 15},
+                  {source: 10,target: 16},
+                  {source: 10,target: 18},
+                  {source: 11,target: 0},
+                  {source: 11,target: 1},
+                  {source: 11,target: 2},
+                  {source: 11,target: 6},
+                  {source: 11,target: 7},
+                  {source: 11,target: 8},
+                  {source: 11,target: 9},
+                  {source: 11,target: 10},
+                  {source: 11,target: 12},
+                  {source: 11,target: 15},
+                  {source: 11,target: 17},
+                  {source: 11,target: 18},
+                  {source: 11,target: 19},
+                  {source: 12,target: 0},
+                  {source: 12,target: 1},
+                   {source: 12,target: 2},
+                  {source: 12,target: 4},
+                   {source: 12,target: 6},
+                  {source: 12,target: 8},
+                   {source: 12,target: 10},
+                  {source: 12,target: 11},
+                   {source: 12,target: 13},
+                  {source: 12,target: 15},
+                   {source: 12,target: 16},
+                  {source: 12,target: 17},
+                   {source: 12,target: 18},
+                  {source: 12,target: 19},
+                   {source: 13,target: 8},
+                 
+                   {source: 14,target: 12},
+                  {source: 14,target: 13},
+                   {source: 14,target: 19},
+                    {source: 15,target: 0},
+                   {source: 15,target: 1},
+                    {source: 15,target: 2},
+                   {source: 15,target: 11},
+                    {source: 15,target: 12},
+                   {source: 15,target: 13},
+                    {source: 15,target: 16},
+                   {source: 15,target: 17},
+                    {source: 16,target: 0},
+                   {source: 16,target: 1},
+                    {source: 16,target: 2},
+                     {source: 16,target: 11},
+                      {source: 16,target: 12},
+                       {source: 16,target: 13},
+                        {source: 16,target: 17},
+                         {source: 16,target: 19},
+                          {source: 16,target: 1},
+                    {source: 17,target: 2},
+                     {source: 17,target: 11},
+                      {source: 17,target: 12},
+                       {source: 17,target: 13},
+                        {source: 17,target: 10},
+                         {source: 17,target: 19},
+                          {source: 17,target: 14},
+                        {source: 17,target: 15},
+                         {source: 17,target: 18},
+                    {source: 18,target: 2},
+                         {source: 18,target: 3},
+                         {source: 18,target: 4},
+                         {source: 18,target: 5},
+                         {source: 18,target: 19},
+                         {source: 19,target: 2}
+
+                ]
+        }
+
+var mouseOverFunction = function(d) {
+  var circle = d3.select(this);
+
+  node
+    .transition(500)
+      .style("opacity", function(o) {
+        return isConnected(o, d) ? 1.0 : 0.2 ;
+      })
+      .style("fill", function(o) {
+        if (isConnectedAsTarget(o, d) && isConnectedAsSource(o, d) ) {
+          fillcolor = 'green';
+        } else if (isConnectedAsSource(o, d)) {
+          fillcolor = 'red';
+        } else if (isConnectedAsTarget(o, d)) {
+          fillcolor = 'blue';
+        } else if (isEqual(o, d)) {
+          fillcolor = "hotpink";
+        } else {
+          fillcolor = '#000';
+        }
+        return fillcolor;
+      });
+
+  link
+    .transition(500)
+      .style("stroke-opacity", function(o) {
+        return o.source === d || o.target === d ? 1 : 0.2;
+      })
+      .transition(500)
+      .attr("marker-end", function(o) {
+        return o.source === d || o.target === d ? "url(#arrowhead)" : "url()";
+      });
+
+  circle
+    .transition(500)
+      .attr("r", function(){ return 2 * node_radius(d)});
+}
+
+var mouseOutFunction = function() {
+  var circle = d3.select(this);
+
+  node
+    .transition(2000);
+
+  link
+    .transition(2000);
+
+  circle
+    .transition(2000)
+      .attr("r", node_radius);
+}
+
+function isConnected(a, b) {
+    return isConnectedAsTarget(a, b) || isConnectedAsSource(a, b) || a.index == b.index;
+}
+
+function isConnectedAsSource(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+
+function isConnectedAsTarget(a, b) {
+    return linkedByIndex[b.index + "," + a.index];
+}
+
+function isEqual(a, b) {
+    return a.index == b.index;
+}
+
+function tick() {
+  link
+    .attr("x1", function(d) { return d.source.x; })
+    .attr("y1", function(d) { return d.source.y; })
+    .attr("x2", function(d) { return d.target.x; })
+    .attr("y2", function(d) { return d.target.y; });
+
+  node
+    .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function node_radius(d) { return Math.pow( d.size/3, 1/3); }
+
+var width = 1000;
+var height = 500;
+
+var nodes = data.nodes
+var links = data.links
+
+var force = d3.layout.force()
+              .nodes(nodes)
+              .links(links)
+              .charge(-150)
+              .linkDistance(300)
+              .friction(1.0)
+              .gravity(0.6)
+              .size([width,height])
+              .start();
+
+var linkedByIndex = {};
+links.forEach(function(d) {
+  linkedByIndex[d.source.index + "," + d.target.index] = true;
+});
+
+var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+var link = svg.selectAll("line")
+
+              .data(links)
+            .enter().append("line")
+
+var node = svg.selectAll(".node")
+              .data(nodes)
+            .enter().append("g")
+              .attr("class", "node")
+              .call(force.drag);
+node.append("text")
+    .attr("text-anchor", "left")
+
+      .attr("font-size", "15px")
+      .attr('stroke', 'black')
+      .attr("fill","#8B2323")
+      .attr('stroke-width', function (d) {
+                    return 0;
+                }) 
+    .text(function(d) { return d.name; });
+ 
+node
+  .append("circle")
+  .attr("r", node_radius)
+  .on("mouseover", mouseOverFunction)
+  .on("mouseout", mouseOutFunction);
+
+svg
+  .append("marker")
+  .attr("id", "arrowhead")
+  .attr("refX", 6 + 7) // Controls the shift of the arrow head along the path
+  .attr("refY", 2)
+  .attr("markerWidth", 6)
+  .attr("markerHeight", 4)
+  .attr("orient", "auto")
+  .append("path")
+    .attr("d", "M 0,0 V 4 L6,2 Z");
+
+link
+  .attr("marker-end", "url()");
+
+force
+  .on("tick",tick);
+
+ 
+
+</script>
+</body>
