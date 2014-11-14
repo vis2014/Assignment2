@@ -30,6 +30,6 @@ This is a visualization with a tree layout to show the Marvel super heroes.
 ###5. Environment:
 + Please open the **The Marvel Super Heroes.html** and click the the black dot to expand or collapse and see a brief introduction by mouseover on the title.We recommend Mozilla Firefox as the preferred browser.
 
-See further information, click [here](http://211.147.15.14/UCAS_14_Fall/index.php/Guojiayi_Buxiangxi_A2).
+See further information, click [here](http://211.147.15.14/UCAS_14_Fall/index.php/Buxiangxi_Guojiayi_A2).
 
 See assignment3,click [here](http://211.147.15.14/UCAS_14_Fall/index.php?title=Guojiayi_buxiangxi_A3&action=edit&redlink=1).
