@@ -1,4 +1,4 @@
-﻿﻿﻿﻿Network of the Mouse visual cortex 
+﻿﻿﻿﻿﻿Network of the Mouse visual cortex 
 ============
 ###1. GithubAddress：[liuzengchaoqian_xiaozhibin_A2](https://github.com/vis2014/Assignment2/tree/liuzengchaoqian_xiaozhibin_A2).
 
@@ -28,3 +28,6 @@ The file includes:
 ###5. Data
 + Data type: JSON.
 + [Network of Mouse brain cortex](http://mrbrain.cs.jhu.edu/graph-services/download/): The data is transformed to "mousevisualcortex.json".
+ 
+###5.Assignment3
+GithubAddress：[liuzengchaoqian_xiaozhibin](https://github.com/vis2014/Assignment3/tree/liuzengchaoqian_xiaozhibin).
