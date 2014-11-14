@@ -6,7 +6,7 @@
 
 &emsp;&emsp;The Figure 1 shows the protein interaction network for yeast. As is known, proteins are traditionally identified on the basis of their individual action as catalysts, signaling molecules, or building blocks in cells and microorganisms. But post-genomic view is expanding the protein’s role into an element in a network of protein-protein interactions as well, in which it has a contextual or cellular function within functional modules. The data provided is to demonstrate the phenotypic consequence of a single gene deletion in the yeast Saccharomyces cerevisiae is affected to a large extent by the topological position of its protein product in the complex hierarchical web of molecular interactions.
 
-&emsp;&emsp;Circles in the figure represent proteins and lines represent interactions between them. The larger of a circle means the more transmission of molecules with other proteins.
+&emsp;&emsp;Circles in the figure represent more than 2000 different kinds of proteins and lines represent interactions between them. The larger of a circle means the more transmission of molecules with other proteins.
 ***************
 ![Figure 2](image/Figure 2.png)
 <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figure 2
