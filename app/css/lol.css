@@ -1,0 +1,37 @@
+#bd{
+	background-color:Black;
+}
+#bd #notice{
+	margin-left:1000px
+}
+#bd #mysvg{
+	/*color:#FFF;*/
+	width:1000px;
+	float:left;
+}
+
+.link {
+  stroke: #ccc;
+  stroke-width:4;
+}
+
+.node text {
+  pointer-events: none;
+  font: 12px sans-serif;
+  fill: #00BFFF;
+}
+
+.node.fixed {
+  fill: #ccc;
+}
+
+.node.img{
+  x:-8;
+  y:-8;
+  width:40;
+  height:40;  
+}
+
+p{
+	color:white;
+}
