@@ -1,0 +1,15 @@
+.node {
+    cursor:move;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.edge {
+    fill: none;
+    stroke: #66666;
+    stroke-opacity: .8;
+}
+.node text{
+    pointer-event:none;
+    font-size:10px;
+}
