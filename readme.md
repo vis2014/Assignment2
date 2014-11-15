@@ -3,9 +3,11 @@
 WORDS FROM SUNSIBAI:
 
 > Forking my repository to a branch instead of a repository is somewhat troublesome ...
+
 > Why not just visit my github or folk it as a repository?
 
 github <https://github.com/niasw/GroupVis>
+
 wiki <http://211.147.15.14/UCAS_14_Fall/index.php/Sunsibai_Liuyu_A2>
 
 ##Introduction
