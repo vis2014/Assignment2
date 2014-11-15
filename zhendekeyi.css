@@ -1,0 +1,14 @@
+.node{
+stroke: #fff;
+stroke-width: 1.5px;
+
+}
+
+.link{
+fill: grey;
+}
+
+.text{
+ font: 10px sans-serif;
+  pointer-events: none;
+}
