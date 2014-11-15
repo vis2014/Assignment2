@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="ocks-org do-not-copy">
 <meta charset="utf-8">
-<title>Les Miserables Character Relation Dynamic Graph</title>
+<title>The Story of the Stone Character Relation Dynamic Graph</title>
 <style>
 
     @import url(style.css);
@@ -21,20 +21,20 @@
 </style>
 <script src="http://d3js.org/d3.v2.min.js"></script>
 
-<h1><strong><i>Les Miserables</i> Character Relation Dynamic Graph</strong></h1>
+<h1><strong><i>The Story of the Stone</i> Character Relation Dynamic Graph</strong></h1>
 
 <aside style="margin-top:80px;">
-    <p>Order: <select id="order">
-        <option value="name">by Name</option>
-        <option value="count">by Frequency</option>
-        <option value="group">by Cluster</option>
+    <p>Option: <select id="order">
+        <option value="name">Name</option>
+        <option value="count">Chapter</option>
+        <option value="group">Class</option>
     </select>
 
-    <p>We used this matrix diagram to visualize all characters relation in <i>Les Miserables</i>.
+    <p>We used this matrix diagram to visualize all characters relation in <i>The Story of the Stone</i>.
 
-    <p>Here you can use the drop-down menu to reorder the matrix and explore the characters` data.
+    <p>Here you can use the drop-down menu to reorder the matrix and explore the characters data.
 
-    <p>Each colored cell represents two characters that appeared in the same chapter which means darker cells indicate characters that co-occurred more frequently.
+    <p>Each colored cell represents two characters that appeared in the same chapter which means darker cells indicate characters that co-occurred more frequently and relatively.
 
     <p>You could view the source code in our Github site <a href="https://github.com/zhaoweiwang" rel="author">WangZhaowei ＆ GuanSaiping</a>.
 </aside>
@@ -56,9 +56,9 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("miserables.json", function(miserables) {
+d3.json("Stone.json", function(Stone) {
   var matrix = [],
-      nodes = miserables.nodes,
+      nodes = Stone.nodes,
       n = nodes.length;
 
   // Compute index per node.
@@ -69,7 +69,7 @@ d3.json("miserables.json", function(miserables) {
   });
 
   // Convert links to matrix; count character occurrences.
-  miserables.links.forEach(function(link) {
+  Stone.links.forEach(function(link) {
     matrix[link.source][link.target].z += link.value;
     matrix[link.target][link.source].z += link.value;
     matrix[link.source][link.source].z += link.value;
