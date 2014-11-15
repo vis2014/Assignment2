@@ -1,0 +1,40 @@
+.nodetext {
+    font-size: 18px;
+    font-family: "楷体";
+    font-weight:bold;
+    fill: #000000;
+}
+.nodeDescription {
+    font-size: 14px;
+    font-family: "FangSong";
+    fill:#930000 ;
+    font-weight:bold;
+}
+.linetext {
+    font-size: 16px;
+    font-family: SimSun;
+    fill: #0000FF;
+    fill-opacity: 0.0;
+}
+
+#div1{
+    position: absolute;
+    top:100px;
+    left:0px;
+    font-size: 18px;
+    font-family: "楷体";
+    font-weight:bold;
+}
+
+h2{
+    font-size: 16px;
+    font-family: "FangSong";
+    fill: #930c13;
+    font-weight:bold;
+}
+.labeltext{
+    font-size: 18px;
+    font-family: "楷体";
+    font-weight:bold;
+    fill: #901a05;
+}

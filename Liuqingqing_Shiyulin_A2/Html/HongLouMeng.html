@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"> </meta>
+    <title>HongLouMeng</title>
+    <script src="../JS/d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="../CSS/HongLouMeng.css">
+</head>
+<body background="../Data/PIC/HongLouMeng.jpg">
+<script type="text/javascript" src="../JS/HongLouMeng.js" charset="utf-8"></script>
+<div id="div1">
+<b>选择家族范围</b>
+
+<select name="displayScale" id="displayScale" onchange="refresh()">
+    <option value="全部" selected>全部</option>
+    <option value="贾府" >贾府</option>
+    <option value="薛府" >薛府</option>
+    <option value="王府" >王府</option>
+    <option value="史府" >史府</option>
+
+</select>
+<input type="button" class = "button" value="确定" onclick ="reload()"/>
+   <br/> <h2>注：需要等运动状态转变为“结束”，
+    <br/> &nbsp &nbsp 才能选择家族范围。</h2>
+</div>
+</body>
+</html>
+
