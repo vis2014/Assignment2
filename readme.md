@@ -17,4 +17,12 @@ So I can use the telephone contacts net to search who keeps the better relations
 
 ###our basis
 We all have some knowledge about C.
-Thought our work may be simple, this is the first time to use web development. We never use html and js. But we believe that we will make a better job with our hardworking. And it may work for final project.      
+Thought our work may be simple, this is the first time to use web development. We never use html and js. But we believe that we will make a better job with our hardworking. And it may work for final project.  
+
+###link
+
+https://github.com/vis2014/Assignment3/zhoumingxing_lihuaping_A3/
+
+###ratio
+
+Assignment2/Assignment3=0.6/0.4.
