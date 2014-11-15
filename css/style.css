@@ -1,0 +1,41 @@
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; font-weight: normal;font-style: normal;font-size: 100%; font-family: inherit;} 
+ol, ul ,li{list-style: none;} 
+img {border: 0;} 
+body {color:#000;background:#FFF; text-align: center; font: 12px/1.5 Arial, Helvetica, sans-serif;} 
+.clearfix:after {clear:both; content:"."; display:block; height:0pt; visibility:hidden; overflow:hidden;} 
+.clear{clear:both;height:1px; margin-top:-1px; width:100%;} 
+
+
+/*此上面代码是初始CSS模板，下面是新写CSS布局框架代码*/ 
+
+#header ,#centers ,#footer{ width:100%; margin:0 auto; clear:both; } 
+#header{ height:40px;font-size:20px;font-weight:bold; border:1px; solid #CCCCCC; } 
+#centers{height:500px; padding:8px 0;} 
+#footer{ height:40px;border-top:1px solid #CCCCCC; background:#F2F2F2;} 
+
+#centers .c_left{ height:500px;float:left; width:340px; border:1px solid #00CC66; background:#F7F7F7; margin-right:5px;margin-left:10px; } 
+#centers .c_right{ float:left; height:100%;width:70%;border:1px solid #00CC66; background:#F7F7F7}
+
+
+
+
+.linetext {
+	font-size: 12px ;
+	font-family: SimSun;
+	fill:#0000FF;
+	fill-opacity:0.0;
+}
+
+.link {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node {
+  cursor: move;
+  fill: #3a9;
+}
+
+.node.fixed {
+  fill: #f00;
+}

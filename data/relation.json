@@ -1,0 +1,1019 @@
+﻿{
+    "nodes": [
+        {
+            "position": "主公",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "刘备",
+            "force": 73
+        },
+        {
+            "position": "夫人",
+            "intellegence": 66,
+            "sex": "女",
+            "name": "甘氏",
+            "force": 58
+        },
+        {
+            "position": "小主公",
+            "intellegence": 60,
+            "sex": "男",
+            "name": "刘禅",
+            "force": 60
+        },
+        {
+            "position": "大儒",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "卢植",
+            "force": 70
+        },
+        {
+            "position": "将领",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "公孙瓒",
+            "force": 70
+        },
+        {
+            "position": "大将",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "关羽",
+            "force": 95
+        },
+        {
+            "position": "小将",
+            "intellegence": 70,
+            "sex": "男",
+            "name": "关平",
+            "force": 77
+        },
+        {
+            "position": "大将",
+            "intellegence": 63,
+            "sex": "男",
+            "name": "张飞",
+            "force": 98
+        },
+        {
+            "position": "小将",
+            "intellegence": 70,
+            "sex": "男",
+            "name": "张苞",
+            "force": 77
+        },
+        {
+            "position": "大将",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "马超",
+            "force": 92
+        },
+        {
+            "position": "军阀",
+            "intellegence": 77,
+            "sex": "男",
+            "name": "马腾",
+            "force": 78
+        },
+        {
+            "position": "军阀",
+            "intellegence": 77,
+            "sex": "男",
+            "name": "韩遂",
+            "force": 78
+        },
+        {
+            "position": "凤雏",
+            "intellegence": 90,
+            "sex": "男",
+            "name": "庞统",
+            "force": 63
+        },
+        {
+            "position": "名士",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "庞德公",
+            "force": 70
+        },
+        {
+            "position": "大将",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "黄忠",
+            "force": 95
+        },
+        {
+            "position": "大将",
+            "intellegence": 84,
+            "sex": "男",
+            "name": "赵云",
+            "force": 95
+        },
+        {
+            "position": "大将",
+            "intellegence": 79,
+            "sex": "男",
+            "name": "魏延",
+            "force": 93
+        },
+        {
+            "position": "二夫人",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "糜氏",
+            "force": 60
+        },
+        {
+            "position": "将领",
+            "intellegence": 71,
+            "sex": "男",
+            "name": "糜芳",
+            "force": 70
+        },
+        {
+            "position": "商人",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "糜竺",
+            "force": 68
+        },
+        {
+            "position": "卧龙",
+            "intellegence": 99,
+            "sex": "男",
+            "name": "诸葛亮",
+            "force": 69
+        },
+        {
+            "position": "才女",
+            "intellegence": 78,
+            "sex": "女",
+            "name": "黄月英",
+            "force": 66
+        },
+        {
+            "position": "名士",
+            "intellegence": 86,
+            "sex": "男",
+            "name": "黄承彦",
+            "force": 68
+        },
+        {
+            "position": "小将",
+            "intellegence": 72,
+            "sex": "男",
+            "name": "诸葛瞻",
+            "force": 66
+        },
+        {
+            "position": "谋士",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "诸葛瑾",
+            "force": 67
+        },
+        {
+            "position": "主公",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "孙权",
+            "force": 74
+        },
+        {
+            "position": "军阀",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "孙策",
+            "force": 76
+        },
+        {
+            "position": "美女",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "大乔",
+            "force": 60
+        },
+        {
+            "position": "军阀",
+            "intellegence": 83,
+            "sex": "男",
+            "name": "孙坚",
+            "force": 80
+        },
+        {
+            "position": "夫人",
+            "intellegence": 76,
+            "sex": "女",
+            "name": "孙尚香",
+            "force": 67
+        },
+        {
+            "position": "谋将",
+            "intellegence": 90,
+            "sex": "男",
+            "name": "周瑜",
+            "force": 80
+        },
+        {
+            "position": "美女",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "小乔",
+            "force": 60
+        },
+        {
+            "position": "大将",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "甘宁",
+            "force": 77
+        },
+        {
+            "position": "大将",
+            "intellegence": 83,
+            "sex": "男",
+            "name": "黄盖",
+            "force": 80
+        },
+        {
+            "position": "谋士",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "鲁肃",
+            "force": 78
+        },
+        {
+            "position": "将领",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "太史慈",
+            "force": 89
+        },
+        {
+            "position": "将领",
+            "intellegence": 81,
+            "sex": "男",
+            "name": "丁奉",
+            "force": 88
+        },
+        {
+            "position": "主公",
+            "intellegence": 83,
+            "sex": "男",
+            "name": "曹操",
+            "force": 80
+        },
+        {
+            "position": "将领",
+            "intellegence": 83,
+            "sex": "男",
+            "name": "曹仁",
+            "force": 88
+        },
+        {
+            "position": "夫人",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "刘氏",
+            "force": 60
+        },
+        {
+            "position": "孝廉",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "曹昂",
+            "force": 78
+        },
+        {
+            "position": "夫人",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "卞氏",
+            "force": 60
+        },
+        {
+            "position": "文皇帝",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "曹丕",
+            "force": 78
+        },
+        {
+            "position": "美女",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "甄姬",
+            "force": 60
+        },
+        {
+            "position": "文学家",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "曹植",
+            "force": 68
+        },
+        {
+            "position": "大将",
+            "intellegence": 77,
+            "sex": "男",
+            "name": "夏侯渊",
+            "force": 87
+        },
+        {
+            "position": "大将",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "夏侯惇",
+            "force": 86
+        },
+        {
+            "position": "军师",
+            "intellegence": 91,
+            "sex": "男",
+            "name": "郭嘉",
+            "force": 67
+        },
+        {
+            "position": "大将",
+            "intellegence": 77,
+            "sex": "男",
+            "name": "徐晃",
+            "force": 89
+        },
+        {
+            "position": "大将",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "许褚",
+            "force": 90
+        },
+        {
+            "position": "猛将",
+            "intellegence": 75,
+            "sex": "男",
+            "name": "典韦",
+            "force": 98
+        },
+        {
+            "position": "谋士",
+            "intellegence": 81,
+            "sex": "男",
+            "name": "荀彧",
+            "force": 66
+        },
+        {
+            "position": "军师",
+            "intellegence": 82,
+            "sex": "男",
+            "name": "荀攸",
+            "force": 70
+        },
+        {
+            "position": "毒士",
+            "intellegence": 89,
+            "sex": "男",
+            "name": "贾诩",
+            "force": 66
+        },
+        {
+            "position": "大将",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "张辽",
+            "force": 92
+        },
+        {
+            "position": "相国",
+            "intellegence": 87,
+            "sex": "男",
+            "name": "司马懿",
+            "force": 67
+        },
+        {
+            "position": "大将军",
+            "intellegence": 84,
+            "sex": "男",
+            "name": "司马昭",
+            "force": 66
+        },
+        {
+            "position": "晋武帝",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "司马炎",
+            "force": 67
+        },
+        {
+            "position": "汉献帝",
+            "intellegence": 60,
+            "sex": "男",
+            "name": "刘协",
+            "force": 60
+        },
+        {
+            "position": "军阀",
+            "intellegence": 78,
+            "sex": "男",
+            "name": "董卓",
+            "force": 82
+        },
+        {
+            "position": "宗亲",
+            "intellegence": 76,
+            "sex": "男",
+            "name": "刘表",
+            "force": 77
+        },
+        {
+            "position": "猛将",
+            "intellegence": 69,
+            "sex": "男",
+            "name": "吕布",
+            "force": 100
+        },
+        {
+            "position": "谋士",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "陈宫",
+            "force": 67
+        },
+        {
+            "position": "才女",
+            "intellegence": 70,
+            "sex": "女",
+            "name": "貂蝉",
+            "force": 70
+        },
+        {
+            "position": "官吏",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "王允",
+            "force": 77
+        },
+        {
+            "position": "夫人",
+            "intellegence": 60,
+            "sex": "女",
+            "name": "蔡氏",
+            "force": 60
+        },
+        {
+            "position": "将领",
+            "intellegence": 70,
+            "sex": "男",
+            "name": "蔡瑁",
+            "force": 70
+        },
+        {
+            "position": "将领",
+            "intellegence": 70,
+            "sex": "男",
+            "name": "黄祖",
+            "force": 78
+        },
+        {
+            "position": "将领",
+            "intellegence": 72,
+            "sex": "男",
+            "name": "文聘",
+            "force": 79
+        },
+        {
+            "position": "天师",
+            "intellegence": 88,
+            "sex": "男",
+            "name": "张角",
+            "force": 80
+        },
+        {
+            "position": "天师",
+            "intellegence": 82,
+            "sex": "男",
+            "name": "张宝",
+            "force": 79
+        },
+        {
+            "position": "天师",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "张梁",
+            "force": 78
+        },
+        {
+            "position": "诸侯",
+            "intellegence": 80,
+            "sex": "男",
+            "name": "袁绍",
+            "force": 80
+        },
+        {
+            "position": "军阀",
+            "intellegence": 73,
+            "sex": "男",
+            "name": "袁术",
+            "force": 76
+        }
+    ],
+    "edges": [
+        {
+            "target": 1,
+            "relation": "原配",
+            "source": 0
+        },
+        {
+            "target": 2,
+            "relation": "母子",
+            "source": 1
+        },
+        {
+            "target": 2,
+            "relation": "父子",
+            "source": 0
+        },
+        {
+            "target": 3,
+            "relation": "师徒",
+            "source": 0
+        },
+        {
+            "target": 4,
+            "relation": "友",
+            "source": 0
+        },
+        {
+            "target": 5,
+            "relation": "结义",
+            "source": 0
+        },
+        {
+            "target": 6,
+            "relation": "义父子",
+            "source": 5
+        },
+        {
+            "target": 7,
+            "relation": "结义",
+            "source": 0
+        },
+        {
+            "target": 8,
+            "relation": "父子",
+            "source": 7
+        },
+        {
+            "target": 8,
+            "relation": "兄弟",
+            "source": 6
+        },
+        {
+            "target": 9,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 10,
+            "relation": "父子",
+            "source": 9
+        },
+        {
+            "target": 11,
+            "relation": "反目",
+            "source": 10
+        },
+        {
+            "target": 12,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 13,
+            "relation": "叔侄",
+            "source": 12
+        },
+        {
+            "target": 14,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 15,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 16,
+            "relation": "魏延",
+            "source": 0
+        },
+        {
+            "target": 17,
+            "relation": "夫妻",
+            "source": 0
+        },
+        {
+            "target": 18,
+            "relation": "兄妹",
+            "source": 17
+        },
+        {
+            "target": 19,
+            "relation": "兄弟",
+            "source": 18
+        },
+        {
+            "target": 18,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 19,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 20,
+            "relation": "主公",
+            "source": 0
+        },
+        {
+            "target": 21,
+            "relation": "夫妻",
+            "source": 20
+        },
+        {
+            "target": 22,
+            "relation": "父女",
+            "source": 21
+        },
+        {
+            "target": 23,
+            "relation": "父子",
+            "source": 20
+        },
+        {
+            "target": 24,
+            "relation": "兄弟",
+            "source": 20
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 24
+        },
+        {
+            "target": 15,
+            "relation": "五虎将",
+            "source": 14
+        },
+        {
+            "target": 14,
+            "relation": "五虎将",
+            "source": 9
+        },
+        {
+            "target": 15,
+            "relation": "五虎将",
+            "source": 9
+        },
+        {
+            "target": 20,
+            "relation": "卧龙凤雏",
+            "source": 12
+        },
+        {
+            "target": 26,
+            "relation": "兄弟",
+            "source": 25
+        },
+        {
+            "target": 28,
+            "relation": "父子",
+            "source": 26
+        },
+        {
+            "target": 28,
+            "relation": "父子",
+            "source": 25
+        },
+        {
+            "target": 27,
+            "relation": "夫妻",
+            "source": 26
+        },
+        {
+            "target": 0,
+            "relation": "夫妻",
+            "source": 29
+        },
+        {
+            "target": 29,
+            "relation": "兄妹",
+            "source": 25
+        },
+        {
+            "target": 30,
+            "relation": "主公",
+            "source": 25
+        },
+        {
+            "target": 31,
+            "relation": "夫妻",
+            "source": 30
+        },
+        {
+            "target": 31,
+            "relation": "姐妹",
+            "source": 27
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 32
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 33
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 34
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 35
+        },
+        {
+            "target": 25,
+            "relation": "主公",
+            "source": 36
+        },
+        {
+            "target": 33,
+            "relation": "打过",
+            "source": 30
+        },
+        {
+            "target": 37,
+            "relation": "从弟",
+            "source": 38
+        },
+        {
+            "target": 37,
+            "relation": "夫妻",
+            "source": 39
+        },
+        {
+            "target": 37,
+            "relation": "长子",
+            "source": 40
+        },
+        {
+            "target": 37,
+            "relation": "夫妻",
+            "source": 41
+        },
+        {
+            "target": 42,
+            "relation": "母子",
+            "source": 41
+        },
+        {
+            "target": 43,
+            "relation": "夫妻",
+            "source": 42
+        },
+        {
+            "target": 42,
+            "relation": "兄弟",
+            "source": 44
+        },
+        {
+            "target": 37,
+            "relation": "父子",
+            "source": 42
+        },
+        {
+            "target": 37,
+            "relation": "父子",
+            "source": 44
+        },
+        {
+            "target": 43,
+            "relation": "暗恋",
+            "source": 44
+        },
+        {
+            "target": 37,
+            "relation": "同族（臣属）",
+            "source": 45
+        },
+        {
+            "target": 46,
+            "relation": "族兄",
+            "source": 45
+        },
+        {
+            "target": 37,
+            "relation": "同族（臣属）",
+            "source": 46
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 47
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 48
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 49
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 50
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 51
+        },
+        {
+            "target": 52,
+            "relation": "叔侄",
+            "source": 51
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 53
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 54
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 55
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 56
+        },
+        {
+            "target": 56,
+            "relation": "父子",
+            "source": 55
+        },
+        {
+            "target": 57,
+            "relation": "父子",
+            "source": 56
+        },
+        {
+            "target": 50,
+            "relation": "二猛将",
+            "source": 49
+        },
+        {
+            "target": 58,
+            "relation": "篡位",
+            "source": 59
+        },
+        {
+            "target": 58,
+            "relation": "宗亲",
+            "source": 60
+        },
+        {
+            "target": 59,
+            "relation": "义父子",
+            "source": 61
+        },
+        {
+            "target": 61,
+            "relation": "主公",
+            "source": 62
+        },
+        {
+            "target": 61,
+            "relation": "主公",
+            "source": 54
+        },
+        {
+            "target": 61,
+            "relation": "主公",
+            "source": 62
+        },
+        {
+            "target": 61,
+            "relation": "夫妻",
+            "source": 63
+        },
+        {
+            "target": 64,
+            "relation": "义父女",
+            "source": 63
+        },
+        {
+            "target": 60,
+            "relation": "夫妻",
+            "source": 65
+        },
+        {
+            "target": 66,
+            "relation": "姐弟",
+            "source": 65
+        },
+        {
+            "target": 60,
+            "relation": "主公",
+            "source": 66
+        },
+        {
+            "target": 37,
+            "relation": "主公",
+            "source": 66
+        },
+        {
+            "target": 60,
+            "relation": "主公",
+            "source": 67
+        },
+        {
+            "target": 60,
+            "relation": "主公",
+            "source": 68
+        },
+        {
+            "target": 25,
+            "relation": "争霸",
+            "source": 0
+        },
+        {
+            "target": 37,
+            "relation": "争霸",
+            "source": 25
+        },
+        {
+            "target": 37,
+            "relation": "争霸",
+            "source": 0
+        },
+        {
+            "target": 58,
+            "relation": "挟持",
+            "source": 37
+        },
+        {
+            "target": 58,
+            "relation": "宗亲",
+            "source": 0
+        },
+        {
+            "target": 69,
+            "relation": "造反",
+            "source": 58
+        },
+        {
+            "target": 70,
+            "relation": "兄弟",
+            "source": 69
+        },
+        {
+            "target": 71,
+            "relation": "兄弟",
+            "source": 70
+        },
+        {
+            "target": 71,
+            "relation": "兄弟",
+            "source": 69
+        },
+        {
+            "target": 58,
+            "relation": "诸侯",
+            "source": 72
+        },
+        {
+            "target": 73,
+            "relation": "兄弟",
+            "source": 72
+        }
+    ]
+}

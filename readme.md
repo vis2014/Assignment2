@@ -1,23 +1,13 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+#代码介绍：
+###本代码用D3中的力导向图工具展示了三国时代中主要将领之间的关系。
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+###代码使用方式：
++ 1.由于项目需要服务器的支持，所以需将代码放于自己搭设的WEB服务器上；
++ 2.放于服务器上后即可按普通项目进行访问。
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout -b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
-
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
-
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
-
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
-
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+###功能简介
++ 1.导向图节点本身是可以自由活动的，在你拖动时，将它固定与固定位置，方便你的观察；
++ 2.如果你想释放某固定位置的节点，你可以双节该节点；
++ 3.当你把鼠标放于某节点时，该节点代表的人物与其他人物的关系会显示在连线上，该人物的信息会显示在左下角；
++ 4.可以通过选择男、女、全部来控制图中人物的显示情况，观察三国中不同性别的人物情况。
++ 5.其他功能，还需更新……

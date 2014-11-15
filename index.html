@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+<head> 
+<meta charset="utf-8" /> 
+<title>index</title> 
+	<link href="css/style.css" rel="stylesheet" type="text/css" /> 
+	<link href="css/left.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" charset="utf-8" src="js/jslibrary/d3.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/jslibrary/jquery2.0.0.min.js"></script>
+</head> 
+<body> 
+	<div id="header"><h2>三国关系图</h2></div> 
+	<div id="centers"> 
+		<div class="c_left">
+			<div class="widget">
+				  <ol class="widget-list" id="local">
+				    <li>
+				      <a class="widget-list-link">
+				        <img src="images/1.png">
+				        Manager #1 <span>
+				        	待扩展……</span>
+				      </a>
+				    </li>
+				    <li>
+				      <a class="widget-list-link">
+				        <img src="images/1.png">
+				        Manager #2 <span>
+				        	待扩展……</span>
+				      </a>
+				    </li>
+				    <li>
+				      <a class="widget-list-link">
+				        <img src="images/1.png">
+				        Manager #3 <span>
+				        	待扩展……</span>
+				      </a>
+				    </li>
+				  </ol>
+				
+				  <ol class="widget-list" id="global">
+				    <li>
+				       <a class="widget-list-link">
+				        <img src="images/2.png">
+					     	性别选择：
+					     <span> 
+					     	<select name="select_sex" id="sex" onchange="refreshNetwork()">
+									  <option value ="all" selected="selected">全部</option>
+									  <option value ="man" >男</option>
+									  <option value="femal">女</option>
+								</select></span>
+				      </a>
+				    </li>
+				    <li>
+				     	 <a class="widget-list-link">
+				        <img src="images/2.png">
+				        武力值：
+				        <span>
+				        	待扩展……
+				        </span>
+				      </a>
+				    </li>
+				    <li>
+				      <a class="widget-list-link">
+				        <img src="images/2.png">
+				         智力值：
+				        <span>
+				        	待扩展……
+				        </span>
+				      </a>
+				    </li>
+				  </ol>
+							
+				  <ul class="widget-tabs">
+				    <li class="widget-tab">
+				      <a href="#local" class="widget-tab-link">local</a> </li>
+				    <li class="widget-tab">
+				      <a href="#global" class="widget-tab-link">global</a>
+				    </li>
+				  </ul>	
+							</div>
+			<div class="person" >
+					<p id = "person_inforation"></p>
+				</div>
+		</div> 
+		
+		<div class="c_right">
+			
+						
+				<script type="text/javascript" src="js/force.js"></script>
+							
+		</div> 
+	</div> 
+	
+	<div class="clear">&nbsp;</div> 
+	<div id="footer">leiding_lipengwang</div> 
+</body> 
+</html>
