@@ -21,7 +21,7 @@ Thought our work may be simple, this is the first time to use web development. W
 
 ###link
 
-https://github.com/vis2014/Assignment3/zhoumingxing_lihuaping_A3/
+https://github.com/vis2014/Assignment3/tree/zhoumingxing_lihuaping_A3
 
 ###ratio
 
