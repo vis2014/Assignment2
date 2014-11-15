@@ -1,23 +1,28 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+#GroupVis --- Show Finite Group Multiplication Relations
+===============
+WORDS FROM SUNSIBAI:
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+> Forking my repository to a branch instead of a repository is somewhat troublesome ...
+> Why not just visit my github or folk it as a repository?
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout -b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
+github <https://github.com/niasw/GroupVis>
+wiki <http://211.147.15.14/UCAS_14_Fall/index.php/Sunsibai_Liuyu_A2>
 
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
+##Introduction
 
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
+Group is a complex mathematical structure used for symmetry analysis in Physics and Chemistry. All the information in a group can be presented by elements and their triadic relations (namely multiplication table), which is quite similar with information in a network --- nodes and relations. In this assignment, we are trying to visualize the triadic relations in a group and see if this will help us obtain properties of this group easier and faster.
 
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
+##Application Package
 
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+GroupVis <https://github.com/niasw/GroupVis>
+
+Copyright 2014 Sun Sibai <niasw(AT)pku.edu.cn> & Liu Yu <caspervector(AT)gmail.com><br/>
+
+    SRCcode: github.com/niasw/GroupVis
+    License: Apache License 2.0
+    Authors: Sun Sibai, Liu Yu
+    Version: 1.0
+    Platform: HTML5+CSS3+JavaScript
+    UsingLib: d3
+
+![File:Image_T_3a_SunSibai_A2.png](http://211.147.15.14/UCAS_14_Fall/images/d/d1/Image_T_3a_SunSibai_A2.png)
