@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Artists Information Map</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="force_new.css"/>
+</head>
+<body>
+<b>Artists Information Map</b>
+<br/><br/>
+<span style="color: red">Note:Please open this map by Firefox not Chrome!</span>
+<br/> <br/>
+Artist_Node:
+<select name="Artist_Node" id="nodeSize" onchange="refreshNetworkSettings()">
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected>6</option>
+    <option value="7">7</option>
+</select>
+<br/>
+Attributes:
+<select name="Attributes" id="nodeFillColor" onchange="refreshNetworkSettings()">
+</select>
+<br/>
+Node Title:
+<select name="nodeTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+</select>
+<br/>
+<br/>
+<input type="button" class = "button" value="Change" onclick = "reloadNetwork()"/>
+<br/>    <br/>
+<div id="chart"></div>
+<script type="text/javascript" src="test_fisheye.js"></script>
+</body>
+</html>
+

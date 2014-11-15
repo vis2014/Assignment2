@@ -1,0 +1,2072 @@
+{
+  "_schemas": {
+    "edges": [
+      {
+        "name": "source", 
+        "type": "int"
+      }, 
+      {
+        "name": "target", 
+        "type": "int"
+      }
+    ], 
+    "nodes": [
+      {
+        "name": "id", 
+        "type": "string"
+      }, 
+      {
+        "name": "name", 
+        "type": "string"
+      }, 
+      {
+        "name": "genre", 
+        "type": "string"
+      }, 
+      {
+        "name": "art_age", 
+        "type": "string"
+      }, 
+      {
+        "name": "birth", 
+        "type": "string"
+      }
+    ]
+  }, 
+  "edges": [
+    {
+      "source": 74, 
+      "target": 15
+    }, 
+    {
+      "source": 74, 
+      "target": 58
+    }, 
+    {
+      "source": 74, 
+      "target": 69
+    }, 
+    {
+      "source": 74, 
+      "target": 29
+    }, 
+    {
+      "source": 74, 
+      "target": 33
+    }, 
+    {
+      "source": 36, 
+      "target": 0
+    }, 
+    {
+      "source": 36, 
+      "target": 96
+    }, 
+    {
+      "source": 36, 
+      "target": 54
+    }, 
+    {
+      "source": 89, 
+      "target": 12
+    }, 
+    {
+      "source": 89, 
+      "target": 83
+    }, 
+    {
+      "source": 89, 
+      "target": 96
+    }, 
+    {
+      "source": 89, 
+      "target": 75
+    }, 
+    {
+      "source": 12, 
+      "target": 99
+    }, 
+    {
+      "source": 91, 
+      "target": 11
+    }, 
+    {
+      "source": 91, 
+      "target": 81
+    }, 
+    {
+      "source": 0, 
+      "target": 93
+    }, 
+    {
+      "source": 0, 
+      "target": 96
+    }, 
+    {
+      "source": 0, 
+      "target": 5
+    }, 
+    {
+      "source": 4, 
+      "target": 70
+    }, 
+    {
+      "source": 4, 
+      "target": 38
+    }, 
+    {
+      "source": 25, 
+      "target": 48
+    }, 
+    {
+      "source": 25, 
+      "target": 97
+    }, 
+    {
+      "source": 26, 
+      "target": 85
+    }, 
+    {
+      "source": 26, 
+      "target": 57
+    }, 
+    {
+      "source": 26, 
+      "target": 60
+    }, 
+    {
+      "source": 26, 
+      "target": 70
+    }, 
+    {
+      "source": 21, 
+      "target": 74
+    }, 
+    {
+      "source": 21, 
+      "target": 93
+    }, 
+    {
+      "source": 95, 
+      "target": 66
+    }, 
+    {
+      "source": 95, 
+      "target": 87
+    }, 
+    {
+      "source": 82, 
+      "target": 50
+    }, 
+    {
+      "source": 82, 
+      "target": 83
+    }, 
+    {
+      "source": 82, 
+      "target": 90
+    }, 
+    {
+      "source": 48, 
+      "target": 25
+    }, 
+    {
+      "source": 48, 
+      "target": 97
+    }, 
+    {
+      "source": 48, 
+      "target": 70
+    }, 
+    {
+      "source": 44, 
+      "target": 74
+    }, 
+    {
+      "source": 44, 
+      "target": 1
+    }, 
+    {
+      "source": 44, 
+      "target": 15
+    }, 
+    {
+      "source": 44, 
+      "target": 69
+    }, 
+    {
+      "source": 50, 
+      "target": 82
+    }, 
+    {
+      "source": 50, 
+      "target": 66
+    }, 
+    {
+      "source": 50, 
+      "target": 83
+    }, 
+    {
+      "source": 42, 
+      "target": 63
+    }, 
+    {
+      "source": 42, 
+      "target": 78
+    }, 
+    {
+      "source": 42, 
+      "target": 6
+    }, 
+    {
+      "source": 32, 
+      "target": 74
+    }, 
+    {
+      "source": 32, 
+      "target": 59
+    }, 
+    {
+      "source": 32, 
+      "target": 29
+    }, 
+    {
+      "source": 32, 
+      "target": 14
+    }, 
+    {
+      "source": 1, 
+      "target": 44
+    }, 
+    {
+      "source": 1, 
+      "target": 13
+    }, 
+    {
+      "source": 1, 
+      "target": 69
+    }, 
+    {
+      "source": 3, 
+      "target": 0
+    }, 
+    {
+      "source": 3, 
+      "target": 93
+    }, 
+    {
+      "source": 3, 
+      "target": 54
+    }, 
+    {
+      "source": 3, 
+      "target": 52
+    }, 
+    {
+      "source": 76, 
+      "target": 95
+    }, 
+    {
+      "source": 76, 
+      "target": 32
+    }, 
+    {
+      "source": 76, 
+      "target": 59
+    }, 
+    {
+      "source": 76, 
+      "target": 14
+    }, 
+    {
+      "source": 66, 
+      "target": 79
+    }, 
+    {
+      "source": 59, 
+      "target": 95
+    }, 
+    {
+      "source": 59, 
+      "target": 76
+    }, 
+    {
+      "source": 59, 
+      "target": 29
+    }, 
+    {
+      "source": 59, 
+      "target": 14
+    }, 
+    {
+      "source": 71, 
+      "target": 49
+    }, 
+    {
+      "source": 71, 
+      "target": 53
+    }, 
+    {
+      "source": 71, 
+      "target": 54
+    }, 
+    {
+      "source": 31, 
+      "target": 85
+    }, 
+    {
+      "source": 31, 
+      "target": 97
+    }, 
+    {
+      "source": 31, 
+      "target": 70
+    }, 
+    {
+      "source": 31, 
+      "target": 92
+    }, 
+    {
+      "source": 18, 
+      "target": 85
+    }, 
+    {
+      "source": 18, 
+      "target": 16
+    }, 
+    {
+      "source": 18, 
+      "target": 98
+    }, 
+    {
+      "source": 18, 
+      "target": 81
+    }, 
+    {
+      "source": 18, 
+      "target": 92
+    }, 
+    {
+      "source": 55, 
+      "target": 44
+    }, 
+    {
+      "source": 55, 
+      "target": 15
+    }, 
+    {
+      "source": 55, 
+      "target": 22
+    }, 
+    {
+      "source": 55, 
+      "target": 58
+    }, 
+    {
+      "source": 55, 
+      "target": 37
+    }, 
+    {
+      "source": 55, 
+      "target": 65
+    }, 
+    {
+      "source": 55, 
+      "target": 23
+    }, 
+    {
+      "source": 73, 
+      "target": 96
+    }, 
+    {
+      "source": 73, 
+      "target": 54
+    }, 
+    {
+      "source": 73, 
+      "target": 78
+    }, 
+    {
+      "source": 45, 
+      "target": 62
+    }, 
+    {
+      "source": 45, 
+      "target": 49
+    }, 
+    {
+      "source": 45, 
+      "target": 53
+    }, 
+    {
+      "source": 45, 
+      "target": 54
+    }, 
+    {
+      "source": 34, 
+      "target": 89
+    }, 
+    {
+      "source": 34, 
+      "target": 12
+    }, 
+    {
+      "source": 34, 
+      "target": 75
+    }, 
+    {
+      "source": 51, 
+      "target": 0
+    }, 
+    {
+      "source": 86, 
+      "target": 2
+    }, 
+    {
+      "source": 86, 
+      "target": 16
+    }, 
+    {
+      "source": 86, 
+      "target": 81
+    }, 
+    {
+      "source": 86, 
+      "target": 92
+    }, 
+    {
+      "source": 62, 
+      "target": 66
+    }, 
+    {
+      "source": 62, 
+      "target": 45
+    }, 
+    {
+      "source": 62, 
+      "target": 96
+    }, 
+    {
+      "source": 30, 
+      "target": 0
+    }, 
+    {
+      "source": 30, 
+      "target": 7
+    }, 
+    {
+      "source": 30, 
+      "target": 96
+    }, 
+    {
+      "source": 30, 
+      "target": 54
+    }, 
+    {
+      "source": 85, 
+      "target": 26
+    }, 
+    {
+      "source": 85, 
+      "target": 60
+    }, 
+    {
+      "source": 77, 
+      "target": 63
+    }, 
+    {
+      "source": 77, 
+      "target": 10
+    }, 
+    {
+      "source": 77, 
+      "target": 6
+    }, 
+    {
+      "source": 41, 
+      "target": 88
+    }, 
+    {
+      "source": 41, 
+      "target": 53
+    }, 
+    {
+      "source": 57, 
+      "target": 26
+    }, 
+    {
+      "source": 57, 
+      "target": 85
+    }, 
+    {
+      "source": 57, 
+      "target": 83
+    }, 
+    {
+      "source": 64, 
+      "target": 41
+    }, 
+    {
+      "source": 64, 
+      "target": 75
+    }, 
+    {
+      "source": 27, 
+      "target": 16
+    }, 
+    {
+      "source": 27, 
+      "target": 97
+    }, 
+    {
+      "source": 27, 
+      "target": 70
+    }, 
+    {
+      "source": 27, 
+      "target": 80
+    }, 
+    {
+      "source": 60, 
+      "target": 85
+    }, 
+    {
+      "source": 60, 
+      "target": 96
+    }, 
+    {
+      "source": 60, 
+      "target": 5
+    }, 
+    {
+      "source": 60, 
+      "target": 92
+    }, 
+    {
+      "source": 60, 
+      "target": 40
+    }, 
+    {
+      "source": 15, 
+      "target": 74
+    }, 
+    {
+      "source": 15, 
+      "target": 55
+    }, 
+    {
+      "source": 15, 
+      "target": 27
+    }, 
+    {
+      "source": 15, 
+      "target": 58
+    }, 
+    {
+      "source": 15, 
+      "target": 72
+    }, 
+    {
+      "source": 79, 
+      "target": 66
+    }, 
+    {
+      "source": 43, 
+      "target": 13
+    }, 
+    {
+      "source": 43, 
+      "target": 69
+    }, 
+    {
+      "source": 43, 
+      "target": 87
+    }, 
+    {
+      "source": 22, 
+      "target": 49
+    }, 
+    {
+      "source": 22, 
+      "target": 20
+    }, 
+    {
+      "source": 22, 
+      "target": 72
+    }, 
+    {
+      "source": 22, 
+      "target": 33
+    }, 
+    {
+      "source": 93, 
+      "target": 0
+    }, 
+    {
+      "source": 93, 
+      "target": 21
+    }, 
+    {
+      "source": 93, 
+      "target": 83
+    }, 
+    {
+      "source": 83, 
+      "target": 82
+    }, 
+    {
+      "source": 83, 
+      "target": 50
+    }, 
+    {
+      "source": 83, 
+      "target": 85
+    }, 
+    {
+      "source": 83, 
+      "target": 93
+    }, 
+    {
+      "source": 83, 
+      "target": 90
+    }, 
+    {
+      "source": 13, 
+      "target": 1
+    }, 
+    {
+      "source": 13, 
+      "target": 41
+    }, 
+    {
+      "source": 7, 
+      "target": 77
+    }, 
+    {
+      "source": 7, 
+      "target": 96
+    }, 
+    {
+      "source": 7, 
+      "target": 54
+    }, 
+    {
+      "source": 7, 
+      "target": 78
+    }, 
+    {
+      "source": 96, 
+      "target": 36
+    }, 
+    {
+      "source": 96, 
+      "target": 0
+    }, 
+    {
+      "source": 96, 
+      "target": 45
+    }, 
+    {
+      "source": 96, 
+      "target": 30
+    }, 
+    {
+      "source": 96, 
+      "target": 92
+    }, 
+    {
+      "source": 2, 
+      "target": 31
+    }, 
+    {
+      "source": 2, 
+      "target": 16
+    }, 
+    {
+      "source": 2, 
+      "target": 81
+    }, 
+    {
+      "source": 75, 
+      "target": 89
+    }, 
+    {
+      "source": 75, 
+      "target": 34
+    }, 
+    {
+      "source": 88, 
+      "target": 45
+    }, 
+    {
+      "source": 88, 
+      "target": 41
+    }, 
+    {
+      "source": 88, 
+      "target": 96
+    }, 
+    {
+      "source": 58, 
+      "target": 74
+    }, 
+    {
+      "source": 58, 
+      "target": 44
+    }, 
+    {
+      "source": 58, 
+      "target": 55
+    }, 
+    {
+      "source": 58, 
+      "target": 15
+    }, 
+    {
+      "source": 58, 
+      "target": 28
+    }, 
+    {
+      "source": 16, 
+      "target": 31
+    }, 
+    {
+      "source": 16, 
+      "target": 85
+    }, 
+    {
+      "source": 16, 
+      "target": 97
+    }, 
+    {
+      "source": 16, 
+      "target": 61
+    }, 
+    {
+      "source": 16, 
+      "target": 92
+    }, 
+    {
+      "source": 69, 
+      "target": 74
+    }, 
+    {
+      "source": 69, 
+      "target": 44
+    }, 
+    {
+      "source": 69, 
+      "target": 1
+    }, 
+    {
+      "source": 69, 
+      "target": 15
+    }, 
+    {
+      "source": 49, 
+      "target": 45
+    }, 
+    {
+      "source": 49, 
+      "target": 22
+    }, 
+    {
+      "source": 49, 
+      "target": 53
+    }, 
+    {
+      "source": 67, 
+      "target": 74
+    }, 
+    {
+      "source": 67, 
+      "target": 58
+    }, 
+    {
+      "source": 67, 
+      "target": 72
+    }, 
+    {
+      "source": 99, 
+      "target": 12
+    }, 
+    {
+      "source": 35, 
+      "target": 62
+    }, 
+    {
+      "source": 35, 
+      "target": 54
+    }, 
+    {
+      "source": 37, 
+      "target": 25
+    }, 
+    {
+      "source": 37, 
+      "target": 55
+    }, 
+    {
+      "source": 37, 
+      "target": 65
+    }, 
+    {
+      "source": 37, 
+      "target": 97
+    }, 
+    {
+      "source": 37, 
+      "target": 23
+    }, 
+    {
+      "source": 19, 
+      "target": 55
+    }, 
+    {
+      "source": 19, 
+      "target": 45
+    }, 
+    {
+      "source": 19, 
+      "target": 7
+    }, 
+    {
+      "source": 19, 
+      "target": 49
+    }, 
+    {
+      "source": 19, 
+      "target": 72
+    }, 
+    {
+      "source": 19, 
+      "target": 10
+    }, 
+    {
+      "source": 65, 
+      "target": 25
+    }, 
+    {
+      "source": 65, 
+      "target": 55
+    }, 
+    {
+      "source": 65, 
+      "target": 37
+    }, 
+    {
+      "source": 65, 
+      "target": 97
+    }, 
+    {
+      "source": 65, 
+      "target": 23
+    }, 
+    {
+      "source": 20, 
+      "target": 55
+    }, 
+    {
+      "source": 20, 
+      "target": 15
+    }, 
+    {
+      "source": 20, 
+      "target": 84
+    }, 
+    {
+      "source": 20, 
+      "target": 72
+    }, 
+    {
+      "source": 20, 
+      "target": 29
+    }, 
+    {
+      "source": 87, 
+      "target": 95
+    }, 
+    {
+      "source": 87, 
+      "target": 43
+    }, 
+    {
+      "source": 87, 
+      "target": 14
+    }, 
+    {
+      "source": 90, 
+      "target": 82
+    }, 
+    {
+      "source": 90, 
+      "target": 83
+    }, 
+    {
+      "source": 53, 
+      "target": 45
+    }, 
+    {
+      "source": 53, 
+      "target": 49
+    }, 
+    {
+      "source": 53, 
+      "target": 72
+    }, 
+    {
+      "source": 53, 
+      "target": 33
+    }, 
+    {
+      "source": 97, 
+      "target": 31
+    }, 
+    {
+      "source": 97, 
+      "target": 85
+    }, 
+    {
+      "source": 97, 
+      "target": 16
+    }, 
+    {
+      "source": 97, 
+      "target": 68
+    }, 
+    {
+      "source": 97, 
+      "target": 92
+    }, 
+    {
+      "source": 46, 
+      "target": 57
+    }, 
+    {
+      "source": 46, 
+      "target": 98
+    }, 
+    {
+      "source": 94, 
+      "target": 63
+    }, 
+    {
+      "source": 94, 
+      "target": 10
+    }, 
+    {
+      "source": 94, 
+      "target": 24
+    }, 
+    {
+      "source": 94, 
+      "target": 39
+    }, 
+    {
+      "source": 5, 
+      "target": 0
+    }, 
+    {
+      "source": 5, 
+      "target": 60
+    }, 
+    {
+      "source": 5, 
+      "target": 96
+    }, 
+    {
+      "source": 5, 
+      "target": 81
+    }, 
+    {
+      "source": 5, 
+      "target": 40
+    }, 
+    {
+      "source": 54, 
+      "target": 45
+    }, 
+    {
+      "source": 54, 
+      "target": 7
+    }, 
+    {
+      "source": 54, 
+      "target": 96
+    }, 
+    {
+      "source": 54, 
+      "target": 19
+    }, 
+    {
+      "source": 70, 
+      "target": 48
+    }, 
+    {
+      "source": 70, 
+      "target": 85
+    }, 
+    {
+      "source": 70, 
+      "target": 27
+    }, 
+    {
+      "source": 11, 
+      "target": 91
+    }, 
+    {
+      "source": 11, 
+      "target": 8
+    }, 
+    {
+      "source": 84, 
+      "target": 22
+    }, 
+    {
+      "source": 84, 
+      "target": 20
+    }, 
+    {
+      "source": 84, 
+      "target": 72
+    }, 
+    {
+      "source": 98, 
+      "target": 18
+    }, 
+    {
+      "source": 98, 
+      "target": 46
+    }, 
+    {
+      "source": 56, 
+      "target": 49
+    }, 
+    {
+      "source": 56, 
+      "target": 28
+    }, 
+    {
+      "source": 56, 
+      "target": 39
+    }, 
+    {
+      "source": 63, 
+      "target": 77
+    }, 
+    {
+      "source": 63, 
+      "target": 54
+    }, 
+    {
+      "source": 63, 
+      "target": 39
+    }, 
+    {
+      "source": 61, 
+      "target": 96
+    }, 
+    {
+      "source": 61, 
+      "target": 16
+    }, 
+    {
+      "source": 61, 
+      "target": 97
+    }, 
+    {
+      "source": 61, 
+      "target": 92
+    }, 
+    {
+      "source": 61, 
+      "target": 40
+    }, 
+    {
+      "source": 72, 
+      "target": 74
+    }, 
+    {
+      "source": 72, 
+      "target": 22
+    }, 
+    {
+      "source": 72, 
+      "target": 67
+    }, 
+    {
+      "source": 72, 
+      "target": 29
+    }, 
+    {
+      "source": 52, 
+      "target": 19
+    }, 
+    {
+      "source": 52, 
+      "target": 70
+    }, 
+    {
+      "source": 52, 
+      "target": 38
+    }, 
+    {
+      "source": 68, 
+      "target": 31
+    }, 
+    {
+      "source": 68, 
+      "target": 85
+    }, 
+    {
+      "source": 68, 
+      "target": 97
+    }, 
+    {
+      "source": 68, 
+      "target": 61
+    }, 
+    {
+      "source": 68, 
+      "target": 40
+    }, 
+    {
+      "source": 29, 
+      "target": 74
+    }, 
+    {
+      "source": 29, 
+      "target": 58
+    }, 
+    {
+      "source": 29, 
+      "target": 87
+    }, 
+    {
+      "source": 29, 
+      "target": 14
+    }, 
+    {
+      "source": 81, 
+      "target": 31
+    }, 
+    {
+      "source": 81, 
+      "target": 18
+    }, 
+    {
+      "source": 81, 
+      "target": 86
+    }, 
+    {
+      "source": 14, 
+      "target": 32
+    }, 
+    {
+      "source": 10, 
+      "target": 77
+    }, 
+    {
+      "source": 10, 
+      "target": 7
+    }, 
+    {
+      "source": 10, 
+      "target": 63
+    }, 
+    {
+      "source": 10, 
+      "target": 39
+    }, 
+    {
+      "source": 10, 
+      "target": 24
+    }, 
+    {
+      "source": 24, 
+      "target": 39
+    }, 
+    {
+      "source": 33, 
+      "target": 32
+    }, 
+    {
+      "source": 33, 
+      "target": 27
+    }, 
+    {
+      "source": 33, 
+      "target": 22
+    }, 
+    {
+      "source": 33, 
+      "target": 54
+    }, 
+    {
+      "source": 33, 
+      "target": 72
+    }, 
+    {
+      "source": 78, 
+      "target": 42
+    }, 
+    {
+      "source": 78, 
+      "target": 19
+    }, 
+    {
+      "source": 78, 
+      "target": 20
+    }, 
+    {
+      "source": 78, 
+      "target": 54
+    }, 
+    {
+      "source": 6, 
+      "target": 42
+    }, 
+    {
+      "source": 6, 
+      "target": 77
+    }, 
+    {
+      "source": 6, 
+      "target": 63
+    }, 
+    {
+      "source": 80, 
+      "target": 31
+    }, 
+    {
+      "source": 80, 
+      "target": 97
+    }, 
+    {
+      "source": 80, 
+      "target": 61
+    }, 
+    {
+      "source": 80, 
+      "target": 40
+    }, 
+    {
+      "source": 9, 
+      "target": 13
+    }, 
+    {
+      "source": 9, 
+      "target": 65
+    }, 
+    {
+      "source": 9, 
+      "target": 23
+    }, 
+    {
+      "source": 38, 
+      "target": 4
+    }, 
+    {
+      "source": 38, 
+      "target": 96
+    }, 
+    {
+      "source": 38, 
+      "target": 54
+    }, 
+    {
+      "source": 28, 
+      "target": 55
+    }, 
+    {
+      "source": 28, 
+      "target": 56
+    }, 
+    {
+      "source": 28, 
+      "target": 39
+    }, 
+    {
+      "source": 39, 
+      "target": 94
+    }, 
+    {
+      "source": 39, 
+      "target": 63
+    }, 
+    {
+      "source": 39, 
+      "target": 28
+    }, 
+    {
+      "source": 23, 
+      "target": 55
+    }, 
+    {
+      "source": 23, 
+      "target": 37
+    }, 
+    {
+      "source": 23, 
+      "target": 65
+    }, 
+    {
+      "source": 92, 
+      "target": 96
+    }, 
+    {
+      "source": 92, 
+      "target": 16
+    }, 
+    {
+      "source": 92, 
+      "target": 97
+    }, 
+    {
+      "source": 92, 
+      "target": 61
+    }, 
+    {
+      "source": 92, 
+      "target": 40
+    }, 
+    {
+      "source": 8, 
+      "target": 34
+    }, 
+    {
+      "source": 8, 
+      "target": 11
+    }, 
+    {
+      "source": 40, 
+      "target": 60
+    }, 
+    {
+      "source": 40, 
+      "target": 85
+    }, 
+    {
+      "source": 40, 
+      "target": 5
+    }, 
+    {
+      "source": 40, 
+      "target": 61
+    }, 
+    {
+      "source": 40, 
+      "target": 92
+    }, 
+    {
+      "source": 47, 
+      "target": 18
+    }, 
+    {
+      "source": 47, 
+      "target": 98
+    }
+  ], 
+  "nodes": [
+    {
+      "art_age": "20th", 
+      "birth": "1938", 
+      "genre": "Neo-Expressionism", 
+      "id": "Baselitz", 
+      "name": "Baselitz"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1935", 
+      "genre": "Conceptual Art", 
+      "id": "Christo", 
+      "name": "Christo"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1955", 
+      "genre": "Conceptual Art", 
+      "id": "Koons", 
+      "name": "Koons"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1952", 
+      "genre": "Neo-Expressionism", 
+      "id": "Clemente", 
+      "name": "Clemente"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1960", 
+      "genre": "NONE", 
+      "id": "Basquiat", 
+      "name": "Basquiat"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1941", 
+      "genre": "PopArt", 
+      "id": "Polke", 
+      "name": "Polke"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1923", 
+      "genre": "Art Informel", 
+      "id": "T\u00e0pies", 
+      "name": "T\u00e0pies"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1910", 
+      "genre": "Abstract Expressionism", 
+      "id": "Kline", 
+      "name": "Kline"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1908", 
+      "genre": "NONE", 
+      "id": "Weight", 
+      "name": "Weight"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1928", 
+      "genre": "Kinetic Art", 
+      "id": "Tinguely", 
+      "name": "Tinguely"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1919", 
+      "genre": "Art Informel", 
+      "id": "Soulages", 
+      "name": "Soulages"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1935", 
+      "genre": "NONE", 
+      "id": "Rego", 
+      "name": "Rego"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1909", 
+      "genre": "Expressionism", 
+      "id": "Bacon", 
+      "name": "Bacon"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1928", 
+      "genre": "NONE", 
+      "id": "Klein", 
+      "name": "Klein"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1906", 
+      "genre": "Abstract Expressionism", 
+      "id": "Smith", 
+      "name": "Smith"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1928", 
+      "genre": "Minimalism", 
+      "id": "Judd", 
+      "name": "Judd"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1923", 
+      "genre": "PopArt", 
+      "id": "Lichtenstein", 
+      "name": "Lichtenstein"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1932", 
+      "genre": "NONE", 
+      "id": "Botero", 
+      "name": "Botero"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1936", 
+      "genre": "Realism", 
+      "id": "Estes", 
+      "name": "Estes"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1915", 
+      "genre": "Abstract Expressionism", 
+      "id": "Motherwell", 
+      "name": "Motherwell"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1905", 
+      "genre": "Abstract Expressionism", 
+      "id": "Newman", 
+      "name": "Newman"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1944", 
+      "genre": "NONE", 
+      "id": "Boltanski", 
+      "name": "Boltanski"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1923", 
+      "genre": "Minimalism", 
+      "id": "Kelly", 
+      "name": "Kelly"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1951", 
+      "genre": "Conceptual Art", 
+      "id": "Viola", 
+      "name": "Viola"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1914", 
+      "genre": "Art Informel", 
+      "id": "De_Sta\u00ebl", 
+      "name": "De_Sta\u00ebl"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1921", 
+      "genre": "Conceptual Art", 
+      "id": "Beuys", 
+      "name": "Beuys"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1932", 
+      "genre": "PopArt", 
+      "id": "Peter_Blake", 
+      "name": "Peter_Blake"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1930", 
+      "genre": "PopArt", 
+      "id": "Johns", 
+      "name": "Johns"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1908", 
+      "genre": "OpArt", 
+      "id": "Vasarely", 
+      "name": "Vasarely"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1939", 
+      "genre": "Minimalism", 
+      "id": "Serra", 
+      "name": "Serra"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1913", 
+      "genre": "Abstract Expressionism", 
+      "id": "Guston", 
+      "name": "Guston"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1935", 
+      "genre": "PopArt", 
+      "id": "Dine", 
+      "name": "Dine"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1924", 
+      "genre": "Abstract Expressionism", 
+      "id": "Caro", 
+      "name": "Caro"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1936", 
+      "genre": "Minimalism", 
+      "id": "Stella", 
+      "name": "Stella"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1922", 
+      "genre": "NONE", 
+      "id": "Freud", 
+      "name": "Freud"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1912", 
+      "genre": "Surrealism", 
+      "id": "Matta", 
+      "name": "Matta"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1921", 
+      "genre": "Cobra", 
+      "id": "Appel", 
+      "name": "Appel"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1925", 
+      "genre": "Conceptual Art", 
+      "id": "Merz", 
+      "name": "Merz"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1929", 
+      "genre": "NONE", 
+      "id": "Twombly", 
+      "name": "Twombly"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1908", 
+      "genre": "NONE", 
+      "id": "Vieira_da_Silva", 
+      "name": "Vieira_da_Silva"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1931", 
+      "genre": "PopArt", 
+      "id": "Wesselmann", 
+      "name": "Wesselmann"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1920", 
+      "genre": "Abstract Expressionism", 
+      "id": "Heron", 
+      "name": "Heron"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1915", 
+      "genre": "Art Informel", 
+      "id": "Burri", 
+      "name": "Burri"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1954", 
+      "genre": "NONE", 
+      "id": "Kapoor", 
+      "name": "Kapoor"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1938", 
+      "genre": "Conceptual Art", 
+      "id": "Buren", 
+      "name": "Buren"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1928", 
+      "genre": "Abstract Expressionism", 
+      "id": "Frankenthaler", 
+      "name": "Frankenthaler"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1935", 
+      "genre": "NONE", 
+      "id": "Organ", 
+      "name": "Organ"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1917", 
+      "genre": "Realism", 
+      "id": "Wyeth", 
+      "name": "Wyeth"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1924", 
+      "genre": "NONE", 
+      "id": "Broodthaers", 
+      "name": "Broodthaers"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1912", 
+      "genre": "Abstract Expressionism", 
+      "id": "Louis", 
+      "name": "Louis"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1905", 
+      "genre": "NONE", 
+      "id": "Burra", 
+      "name": "Burra"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1930", 
+      "genre": "Neo-Expressionism", 
+      "id": "Frink", 
+      "name": "Frink"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1951", 
+      "genre": "Neo-Expressionism", 
+      "id": "Schnabel", 
+      "name": "Schnabel"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1924", 
+      "genre": "OpArt", 
+      "id": "Noland", 
+      "name": "Noland"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1912", 
+      "genre": "Abstract Expressionism", 
+      "id": "Pollock", 
+      "name": "Pollock"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1933", 
+      "genre": "Minimalism", 
+      "id": "Flavin", 
+      "name": "Flavin"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1931", 
+      "genre": "OpArt", 
+      "id": "Riley", 
+      "name": "Riley"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1937", 
+      "genre": "PopArt", 
+      "id": "Hockney", 
+      "name": "Hockney"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1928", 
+      "genre": "Minimalism", 
+      "id": "LeWitt", 
+      "name": "LeWitt"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1949", 
+      "genre": "NONE", 
+      "id": "Deacon", 
+      "name": "Deacon"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1937", 
+      "genre": "PopArt", 
+      "id": "Jones", 
+      "name": "Jones"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1933", 
+      "genre": "PopArt", 
+      "id": "Rosenquist", 
+      "name": "Rosenquist"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Surrealism", 
+      "id": "Gorky", 
+      "name": "Gorky"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1923", 
+      "genre": "Art Informel", 
+      "id": "Riopelle", 
+      "name": "Riopelle"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1932", 
+      "genre": "Abstract Impressionism", 
+      "id": "Hodgkin", 
+      "name": "Hodgkin"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1941", 
+      "genre": "Conceptual Art", 
+      "id": "Nauman", 
+      "name": "Nauman"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Surrealism", 
+      "id": "Dali", 
+      "name": "Dali"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1937", 
+      "genre": "Minimalism", 
+      "id": "Mangold", 
+      "name": "Mangold"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1924", 
+      "genre": "PopArt", 
+      "id": "Segal", 
+      "name": "Segal"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1945", 
+      "genre": "Conceptual Art", 
+      "id": "Long", 
+      "name": "Long"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1925", 
+      "genre": "PopArt", 
+      "id": "Rauschenberg", 
+      "name": "Rauschenberg"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1922", 
+      "genre": "Abstract Expressionism", 
+      "id": "Diebenkorn", 
+      "name": "Diebenkorn"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1930", 
+      "genre": "Minimalism", 
+      "id": "Ryman", 
+      "name": "Ryman"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1923", 
+      "genre": "Abstract Expressionism", 
+      "id": "Francis", 
+      "name": "Francis"
+    }, 
+    {
+      "art_age": "19th", 
+      "birth": "1935", 
+      "genre": "Minimalism", 
+      "id": "Andre", 
+      "name": "Andre"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1926", 
+      "genre": "NONE", 
+      "id": "Kossoff", 
+      "name": "Kossoff"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1949", 
+      "genre": "NONE", 
+      "id": "Cragg", 
+      "name": "Cragg"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Art Informel", 
+      "id": "Hartung", 
+      "name": "Hartung"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Abstract Expressionism", 
+      "id": "Still", 
+      "name": "Still"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1907", 
+      "genre": "Surrealism", 
+      "id": "Kahlo", 
+      "name": "Kahlo"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1920", 
+      "genre": "PopArt", 
+      "id": "Thiebaud", 
+      "name": "Thiebaud"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1954", 
+      "genre": "NONE", 
+      "id": "Sherman", 
+      "name": "Sherman"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1920", 
+      "genre": "Neo-Expressionism", 
+      "id": "Boyd", 
+      "name": "Boyd"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1932", 
+      "genre": "PopArt", 
+      "id": "Kitaj", 
+      "name": "Kitaj"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1913", 
+      "genre": "Abstract Expressionism", 
+      "id": "Reinhardt", 
+      "name": "Reinhardt"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1922", 
+      "genre": "PopArt", 
+      "id": "Hamilton", 
+      "name": "Hamilton"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1943", 
+      "genre": "NONE", 
+      "id": "Gilbert_and_George", 
+      "name": "Gilbert_and_George"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Abstract Expressionism", 
+      "id": "Noguchi", 
+      "name": "Noguchi"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1918", 
+      "genre": "NONE", 
+      "id": "Lanyon", 
+      "name": "Lanyon"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1931", 
+      "genre": "Neo-Expressionism", 
+      "id": "Auerbach", 
+      "name": "Auerbach"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1917", 
+      "genre": "NONE", 
+      "id": "Nolan", 
+      "name": "Nolan"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1912", 
+      "genre": "NONE", 
+      "id": "Balthus", 
+      "name": "Balthus"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1928", 
+      "genre": "PopArt", 
+      "id": "Warhol", 
+      "name": "Warhol"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1945", 
+      "genre": "Neo-Expressionism", 
+      "id": "Kiefer", 
+      "name": "Kiefer"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1906", 
+      "genre": "Abstract Expressionism", 
+      "id": "Poliakoff", 
+      "name": "Poliakoff"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1911", 
+      "genre": "Abstract Expressionism", 
+      "id": "Bourgeois", 
+      "name": "Bourgeois"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1904", 
+      "genre": "Abstract Expressionism", 
+      "id": "De_Kooning", 
+      "name": "De_Kooning"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1929", 
+      "genre": "PopArt", 
+      "id": "Oldenburg", 
+      "name": "Oldenburg"
+    }, 
+    {
+      "art_age": "20th", 
+      "birth": "1932", 
+      "genre": "PopArt", 
+      "id": "Richter", 
+      "name": "Richter"
+    }, 
+    {
+      "art_age": "NONE", 
+      "birth": "1908", 
+      "genre": "NONE", 
+      "id": "Manz\u00f9", 
+      "name": "Manz\u00f9"
+    }
+  ]
+}
