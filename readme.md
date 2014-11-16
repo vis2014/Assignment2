@@ -1,3 +1,10 @@
+##Assignment3 link
+[https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3](https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3)
+
+__Attention, Final Score = 0.5 * Assigment2 + 0.5 Assignment3__
+
+the partition at the course website is not correct, please ensure.
+
 ##copyright
 __you can not use the source code before the final check by the teacher.__
 
@@ -20,4 +27,9 @@ View our results [here](http://yijia.ws/pages/force_new.html) online.
 To see all effects, we recommand you to use firefox. If you must use chrome, please set your local server.
 
 ex, for python, you can type: __python -m SimpleHTTPServer 8888__, then you can visit [http://localhost:8888](http://localhost:8888).
+
+##Assignment3
+[https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3](https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3)
+
+__Attention, Final Score = 0.5 * Assigment2 + 0.5 Assignment3__
 
