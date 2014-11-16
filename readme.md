@@ -1,0 +1,3 @@
+#rhesus_interareal.cortical.network
+###1.Introduction
++ this visualization shows the relationships among different parts of a rhesus¡¯s brain. Each part of the brain is abstracted into a node, and the ecological signals between them is their edges. We get the data from [MROCP](http://mrbrain.cs.jhu.edu/graph-services/download/). And visualize it with force lay-out. Several interactions is included to allow you to get closer to the data. We hope you enjoy it.
