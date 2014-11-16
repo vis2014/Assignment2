@@ -1,0 +1,85 @@
+<!DOCTYPE html><!--这是标准的文档类型声明，必须在文档的第一行。-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>.cortical.network</title>
+    <style type="text/css">
+        #title{
+            height:60px;
+            width:1280px;
+            /*border:1px solid #000;*/
+        }
+        #chart{
+            height:800px;
+            width:1000px;
+            display: inline-block;
+            /*border:1px solid #903;*/
+        }
+        #ctr{
+            height:800px;
+            width:250px;
+            float:left;
+            /*border:1px solid #C63;*/
+        }
+    </style>
+    <script type="text/javascript" src="d3.js"></script>
+    <link type="text/css" rel="stylesheet" href="force_new.css"/>
+</head>
+
+<body>
+<div id="title">
+    <h1>Network Attribute Mapping</h1><!--粗字体-->
+    <br/><!--定义简单的拆行-->
+</div>
+<div id="ctr">
+    <h3>control part:</h3>
+    Node Shape:
+    <select name="nodeShape" id="nodeShape" onchange="refreshNetworkSettings()">
+        <option value="circle" selected>circle</option>
+        <option value="rect">rect</option>
+        <!--<option value="rect">rect</option>-->
+    </select><!--定义选择列表-->
+    <br/>
+
+    Node Size:
+    <select name="nodeSize" id="nodeSize" onchange="refreshNetworkSettings()">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected>5</option>
+        <option value="7">7</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+    </select><br/>
+
+    Node Fill Color:
+    <select name="nodeFillColor" id="nodeFillColor" onchange="refreshNetworkSettings()">
+    </select><br/>
+
+    Node Title (Hover):
+    <select name="nodeHoverTitle" id="nodeHoverTitle" onchange="refreshNetworkSettings()">
+    </select><br/>
+
+    Edge Thickness:
+    <select name="edgeThickness" id="edgeThickness" onchange="refreshNetworkSettings()">
+        <option value="value" selected>default</option>
+    </select></br>
+    <input type="checkbox" id = "edgefilter" value="checkbox" onchange="refreshNetworkSettings()"/>
+    Weight Select: >=
+    <input type="text" id="edgeWeight" size="5" value="" onchange="refreshNetworkSettings()"></br>
+
+    <input type="button" class = "button" value="Apply" onclick = "reloadNetwork()"/>
+    <input type="button" class = "button" value="Reset" onclick = "resetNetwork()"/>
+    <br/>
+    <br/>
+
+    <!--<input type="button" class = "button" value="label" onclick = "Label()"/>-->
+    <input type="checkbox" id = "label" value="checkbox" checked="checked" onchange="Label()"/>
+    Lable
+    <br/><!--定义简单的拆行-->
+</div>
+<div id="chart"></div>
+</div>
+<script type="text/javascript" src="rhesus_network.js"></script>
+</body>
+</html>
