@@ -1,0 +1,67 @@
+body{
+    background: url("bg.png") repeat;
+}
+#control{
+    float: left;
+    width: 300px;
+}
+#control ul{
+    list-style: none;
+    padding-left: 0;
+}
+#content{
+    float: left;
+    width: 900px;
+    border: 5px solid lightblue;
+    padding: 3px;
+}
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1px;
+}
+
+.node {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1px;
+}
+
+.nodedesc {
+    font-size: 12px;
+    font-family: SimSun;
+    fill: #000000;
+}
+.nodetext {
+    font-size: 12px;
+    font-family: SimSun;
+    fill: #000000;
+}
+#tooltip{
+    width:250px;
+    height:auto;
+    padding:10px;
+    color: #ffffff;
+    height: 400px;
+    background-color: lightblue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+    box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events:none;
+}
+#tooltip.hidden{
+    display: none;
+}
+#tooltip p{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
