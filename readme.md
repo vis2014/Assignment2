@@ -1,23 +1,24 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+###dependency parsing visualization
+Syntactic analysis is a key issue in the field of natural language processing, and Natural language processing is an important direction in the computer science field and artificial intelligence filed.Dependency grammar (DG) is a class of modern syntactic theories that are all based on the dependency relation.**The dependency relation views the (finite) verb as the structural center of all clause structure.**All other syntactic units (e.g. words) are either directly or indirectly dependent on the verb.I show the data of both golden rule and the parsing algorithm results.
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+![](img/main.png)
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout -b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
+From the picture above we can see many sentences, and I show the parsing tree which can be seen when the mouse is over any sentence. In this picture, I move the mouse over the forth sentence, and we can see two parsing trees, of them the left one is the result of parsing algorithm while the right one is the result of Golden Rule. In parsing tree, a node represents a word and the line between nodes represents the dependency relation. **We can easily see which dependency relation is wrong because I use red line to represent wrong relation. So we can compare the results of Golden Rule and parsing algorithm conveniently.**
 
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
+![](img/start.jpg)
 
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
+We can click any sentence in picture 1 and see this page. In this picture, the top shows the whole sentence and the word whose dependency relation is wrong is underlined and bold.Both in the above sentence and the following parsing tree, the nodes and the words are marked serial number in sentence. I draw the parsing  tree by using a special tree called hyperbolic tree which can shift the focus, so we can see the part interested while other parts is not focused.We can see the detail in the following picture:
 
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
+![](img/tree.png) 
 
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+![](img/focus.jpg)
+
+In this picture, I move the mouse over node 'said' in parsing tree.We can see both in the sentence and the parsing tree, the selected word and the related words are highlighted.From the top sentence, we can clearly see the dependency relations of the selected word in sentence. 
+
+![](img/move.png)
+
+In this picture, I move mouse to change the focus and the node 'is' is selected. We can primarily see the dependency relation of 'is' while other parts of the parsing tree is nonsignificant.
+
+
+###conclusion
+There are many wrongs in dependency parsing algorithm results, and what I do is to help to improve the dependency parsing algorithm .Through comparing the Golden Rule results and the algorithm results by visualization, we can more conveniently find the wrongs than just comparing the text results.  
