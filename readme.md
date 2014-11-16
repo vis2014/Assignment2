@@ -11,6 +11,7 @@
 
 ###2. Creation:
 + This project based on the example on wiki.
+
 #### What's new:
 + a.The nodes will display an image now instead of a circle or rectangle.
 + b.Some text will show on the nodes.
