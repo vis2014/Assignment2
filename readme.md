@@ -1,9 +1,19 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+#The relationship between some famous poets in Tang Dynasty.
++ The Tang Dynasty produced a host of great poets, such as Li Bai, Du Fu and Wangwei.We have a great interest in the relationships between those famous poets in Tang Dynasty ,especially how they described their relationships in their poems.Therefore,by reading many poems or stories of these poets in Tang Dynasty, we try to find out if they know each other and the poems as a proof of their relationships.And the network graph below is the result of our work. 
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+###1. Data source: 
++ poems and the information gathered on Internet.
++ Because it is so difficult to gather information of all poets, we choose some of them.So we do not have many nodes in our graph. 
+
+
+
+###2. Creation:
++ This project based on the example on wiki.
++ What's new:
++ a.The nodes will display an image now instead of a circle or rectangle.
++ b.Some text will show on the nodes.
++ c.Add some interactions:When the mouse point a node,some text will show beside the edges,some edges connect to the node will change color and the image of the node and other nodes connect to the node will become bigger.
+
 
 ###3. 获取github上的代码：
 + 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
