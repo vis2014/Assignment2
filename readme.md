@@ -1,8 +1,8 @@
 #Assignment2
 
-###1. Ğ¡×é³ÉÔ±
-+ ¹¢¼Ñç÷
-+ ÍõÇàÔÆ
+###1. å°ç»„æˆå‘˜
++ è€¿ä½³çª
++ ç‹é’äº‘
 
 ###2. Github Address: 
 [Assignment2](https://github.com/vis2014/Assignment2/tree/Gengjiaqi_Wangqingyun_A2)
