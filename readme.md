@@ -1,23 +1,22 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+﻿#Introduction of Assignment2：
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+###1.Motivation:
+	When we start to do this homework, we want to describe the connection between people,so we find the relationship data on the Internet which is stored in the file graph.json. 
+Considering that the complicated relationship between people is hard to display by trees or some other structures, we decided to use a dynamic plotting to express our data. In the plotting, nodes are used to present the people and the lines between two nodes show the connections. In this way, we could find the connections between people and some circles of friends easily.	
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout -b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
+###2.Process：
+	Considering that we have never learned JS before. In order to do this work, we made several references for some educational books and many JS examples. Then, we use d3 force-directed layout to accomplish the visualization. By making each person as a node and signing the nodes by people’s names.
+![Picture](/liyaozong_zhangzhuang_A2/1.jpg)
+	When you select a node and drag it, the people whoever connected with it will move together. If you want to see connections clearly, then fix the selected node by setting the drop-down box on the upper-left corner.
 
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
+###3.Function：
+	As we can see, we could know connections between people directly and clearly. Imagining that when we lose a friend's contact information, we just need to search other people who are keeping contact with him or her. That is useful.
 
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
+###4.Harvest：
+	Not only did we get some basic knowledge about D3 and JS, but also we now have some original ideas for the last assignment.
 
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
+###5.The third assignment：
+[Assignment3](https://github.com/vis2014/Assignment3/liyaozong_zhangzhuang_A3)
 
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
+###6.Ratio：
+	This is 0.5.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+    .link {
+        stroke: #ccc;
+    }
+    .node text {
+        pointer-events: none;
+        font: 10px sans-serif;
+    }
+    </style>
+    <script type="text/javascript" src="d3.js"></script>
+</head>
+<body>
+Node fixed:
+<select name="nodeSize" id="nodeSize" onchange="refreshNetworkSettings(); reloadNetwork();">
+    <option value="1" selected>Yes</option>
+    <option value="0">No</option>
+</select>
+<br/>    <br/>
+<script type="text/javascript" src="force.js"></script>
+</body>
+</html>
