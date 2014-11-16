@@ -1,0 +1,83 @@
+{
+    "_schemas": {
+    "edges": [
+        {
+            "name": "source",
+            "type": "int"
+        },
+        {
+            "name": "target",
+            "type": "int"
+        },
+        {
+            "name": "relation",
+            "type": "string"
+        },
+        {
+            "name": "shige",
+            "type": "string"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "image",
+            "type": "string"
+        }
+    ]
+},
+    "nodes":[
+        { "name": "李白"   , "image" : "Libai.png" },
+        { "name": "杜甫"   , "image" : "Dufu.png" },
+        { "name": "崔宗之"   , "image" : "Cuizongzhi.png" },
+        { "name": "王维" , "image" : "Wangwei.png" },
+        { "name": "岑参" , "image" : "Censen.png" },
+        { "name": "孟浩然" , "image" : "Menghaoran.png" },
+        { "name": "张九龄" , "image" : "Zhangjiulin.png" },
+        { "name": "綦毋潜" , "image" : "Qiwuqian.png" },
+        { "name": "王昌龄" , "image" : "Wangchanglin.png" },
+        { "name": "高适" , "image" : "Gaoshi.png" },
+        { "name": "张旭" , "image" : "Zhangxu.png" },
+        { "name": "贺知章" , "image" : "Hezhizhang.png" },
+        { "name": " 薛据" , "image" : "Xueju.png" },
+        { "name": " 李颀" , "image" : "Liqi.png" },
+        { "name": " 储光羲" , "image" : "Chuguangxi.png" }
+
+    ],
+    "edges":[
+        { "source": 0 , "target": 1 ,"shige":["思君若汶水，浩荡寄南征。"] },
+        { "source": 0 , "target": 5 ,"shige":["吾爱孟夫子，风流天下闻。"]},
+        { "source": 0 , "target": 8 ,"shige":["我寄愁心与明月，随风直到夜郎西。"]},
+        { "source": 0 , "target": 11 ,"shige":["山阴道士如相见，应写黄庭换白鹅。"]},
+        { "source": 1 , "target": 0 ,"shige":["白也诗无敌，飘然思不群"] },
+        { "source": 1 , "target": 2 ,"shige":["宗之潇洒美少年，举觞白眼望青天，皎如玉树临风前。"] },
+        { "source": 1 , "target": 3 ,"shige":["不见高人王右丞，蓝田丘墼漫寒藤。"] },
+        { "source": 1 , "target": 5 ,"shige":["复忆襄阳孟浩然，清诗句句尽堪传。"] },
+        { "source": 1 , "target": 11 ,"shige":["知章骑马似乘船，眼花落井水底眠。"] },
+        { "source": 1 , "target": 10 ,"shige":["张旭三杯草圣传，脱帽露顶王公前，挥毫落纸如云烟。"] },
+        { "source": 1 , "target": 9 ,"shige":["致君丹槛折，哭友白云长。"] },
+        { "source": 1 , "target": 12 ,"shige":["子尚客荆州，我亦滞江滨。"] },
+        { "source": 1 , "target": 4 ,"shige":["岑生多新语，性亦嗜醇酎。"]},
+        { "source": 2 , "target": 0 ,"shige":["平生心中事，今日为君悦。"]},
+        { "source": 3 , "target": 5 ,"shige":["以此为良策，劝君归旧庐。"]},
+        { "source": 3 , "target": 6 ,"shige":["举世无相识，终身思旧恩。"]},
+        { "source": 3 , "target": 7 ,"shige":["荷蓧几时还，尘缨待君洗。"]},
+        { "source": 3 , "target": 12 ,"shige":["更待风景好，与君藉萋萋。"]},
+        { "source": 3 , "target": 13 ,"shige":["闻君饵丹砂，甚有好颜色。"]},
+        { "source": 4 , "target": 8 ,"shige":["惜君青云器，努力加餐饭。"]},
+        { "source": 4 , "target": 1 ,"shige":["联步趋丹陛，分曹限紫微。"]},
+        { "source": 4 , "target": 9 ,"shige":["净理了可悟，胜因夙所宗。"]},
+        { "source": 4 , "target": 12 ,"shige":["誓将挂冠去，觉道资无穷。"]},
+        { "source": 5 , "target": 3 ,"shige":["欲寻芳草去，惜与故人违。"]},
+        { "source": 5 , "target": 6 ,"shige":["欲济无舟楫，端居耻圣明。"]},
+        { "source": 5 , "target": 8 ,"shige":["数年同笔砚，兹夕间衾裯。"]},
+        { "source": 7 , "target": 14 ,"shige":["兹情不可说，长恨隐沦赊。"]},
+        { "source": 7 , "target": 3 ,"shige":["真是吾兄法，何妨友弟深。"]},
+        { "source": 8 , "target": 4 ,"shige":["为君啸一曲，且莫弹箜篌。"]},
+        { "source": 13 , "target": 10 ,"shige":["张公性嗜酒，豁达无所营。"]},
+        { "source": 14 , "target": 11 ,"shige":["独往不可群，沧海成桑田。"]}
+    ]
+}

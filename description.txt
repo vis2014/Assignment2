@@ -1,0 +1,35 @@
+We are very interesred in what the Information visualization can do for us.In the assignment 2 ,we can see that it can bring us something more.
+
+The Tang Dynasty produced a host of great poets, such as Li Bai, Du Fu and Wangwei.We have a great interest in the relationships between those famous poets in Tang Dynasty ,especially how they described their relationships in their poems.Therefore,by reading many poems or stories of these poets in Tang Dynasty, we try to find out if they know each other and the poems as a proof of their relationships.And the network graph below is the result of our work. 
+Data source:
+poems and the information gathered on Internet.
+Because it is so difficult to gather information of all poets, we choose some of them.So we do not have many nodes in our graph. 
+
+fearures:
+1.Every node consists of the poet's picture and his name. 
+It is very vivid to use poet's picture rather than colorful balls.And the poet's name indictate the poet's identity.It helps us to express the information well.In Fig2_1.png.
+2.At first sight, we can see that the size of every poet'picture is different.Actually,there is a positive correlation between size of the pictures and the times the poet mentioned by other poets.It can show the fame of different poets to some degree.In Fig2_1.png.
+3.When you point you mouse to a certain poet,his pictures will grow bigger and so are the poets' he mentioned in his poems.At the same time, the poems show along the corresponding edges. Further more, the color of poems is different with each other .But it is the same with the color of the corresponding edges.
+By changing the size of pictures and using different color for different nodes, it shows you what you want to konw clearly.In Fig2_2.png.
+
+conclusions:
+1.The pitures of Meng Haoran,He Zhizhang,Du Fu and Li Bai is relatively larger than others'.It means that they were very famous poets during the times they lived in,and many other poets knew them well.In Fig2_1.png.
+2.The Xue Ju's picture is also lagrge .And we can find that he was mentioned by some famous poets in their poems,such as Du Fu£¬Wang Wei.We can predict that he must be a famous poet in Tang Dynasty,too.But for some reason, most of his poems were lost to us.In fact ,by searching information about him on the Intenet,he was really a great poet but only a few of his works spread in history.In Fig2_3.png.
+3.Li Bai,Du Fu mentioned many other poets in their poems.And it remind us that both of them are great poets and they loved making friends with other people.
+Different with them£¬ Chu Guangxi and Li Qi have fewer edges with other poets.It shows that they are less famous than Li Bai and Du Fu.In Fig2_2.png.
+4.Li Bai ,Dou Fu ,Cen shen and Gao Shi are very good friends.They know each other very well.We can get that from their poems and the distribution of the edges.They are four great poets in Tang Dynasty,and they are good friends.
+It shows that the talent always think highly of the talent.In Fig2_4.png.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
