@@ -25,5 +25,5 @@ GithubAddress：[Lihao_Chenpeiwei_A3](https://github.com/vis2014/Assignment3/tre
 
 ###5.Proportion
 
-Assignment2:0.4
-Assignment3:0.6
++ Assignment2:0.4
++ Assignment3:0.6
