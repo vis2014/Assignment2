@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <style type="text/css">
+        circle.node {
+            cursor: pointer;
+            stroke: #000;
+            stroke-width: .5px;
+        }
+
+        .nodetext {
+            font-size: 12px ;
+            font-family: SimSun;
+            fill:#000000;
+        }
+        line.link {
+            fill: none;
+            stroke: #9ecae1;
+            stroke-width: 1.5px;
+        }
+
+    </style>
+</head>
+<body>
+<h2>
+    UCAS  size<br>
+    force-directed graph
+</h2>
+Node Size:
+<select name="nodeFilter" id="nodeSize" onchange="refreshNetworkSettings()">
+    <option value="0" selected>0</option>
+    <option value="25">25</option>
+    <option value="50">50</option>
+    <option value="75">75</option>
+    <option value="100">100</option>
+    <option value="150">150</option>
+    <option value="200">200</option>
+</select>
+<input type="button" class = "button" value="Apply" onclick = "reloadNetwork()"/>
+
+
+<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>
+
+<script type="text/javascript" src="action.js"></script>
+
+</body>
+</html>
