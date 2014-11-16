@@ -13,7 +13,12 @@ and 4,039 users are obtained. And a survey was conducted by ten users, who were 
 ###3. 数据源
 [http://snap.stanford.edu/data/](http://snap.stanford.edu/data/)
 
-###4. 可视化说明 
+###4. 说明 
 使用D3.js可视化Facebook用户的社交网络数据，源发表文章见[http://i.stanford.edu/~julian/pdfs/nips2012.pdf](http://i.stanford.edu/~julian/pdfs/nips2012.pdf)。将社交用户数据的好友网络可视化，提供的交互功能可以方便查看总体分布与具体细节分布，更加直观的表现蕴含的网络特征。
++ src/*.js : The D3.js framework jquery framework
++ app/*.js : The implements of this project, interaction, and data
++ app/index.html : The main page of the project
++ app/css/*.css : The style sheet for the layout
++ app/images/.* : The picture used in the project
 
 github地址：[Assignment2](https://github.com/vis2014/Assignment2/tree/songshuangyang_tanghongyin_A2).
