@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D3: Force layout</title>
+<script type="text/javascript" src="../d3/d3.js"></script>
+<style type="text/css">
+/* No style rules here yet */
+</style>
+</head>
+<body>
+<script type="text/javascript">
+//Width and height
+var w = 1000;
+var h = 800;
+
+
+//Initialize a default force layout, using the nodes and edges in dataset
+var force = d3.layout.force().charge(-120).linkDistance(30).size(
+		[ w, h ]);
+
+var colors = d3.scale.category20();//get different color
+
+//Create SVG element
+var svg = d3.select("body")//create svg
+.append("svg")
+.attr("width", w)
+.attr("height", h);
+
+d3.json("socialnet_count.json",function (json) {
+	//load json data
+	//console.log(json);
+	//console.log(json.edges);
+	//start force.	
+	force.nodes(json.nodes).links(json.edges).start();
+	
+	//Create edges as lines
+	var edge=svg.selectAll("line.edge")
+					.data(json.edges)
+					.enter()
+					.append("line")
+					.attr("class","edge")
+					.attr("source",function (d) {
+						return d.source.id;
+					})
+					.attr("target",function (d) {
+						return d.target.id;
+					})
+					.style("stroke","#ccc")
+					.style("stroke-width",1.0);
+		
+		//console.log(edge);
+	//Create nodes as circles
+	var node = svg.selectAll("circle.node")//add node to svg
+						.data(json.nodes)
+						.enter()
+						.append("circle")
+						.attr("class","node")
+						.attr("id",function (d) {
+							return d.id;
+						})
+						.attr("r", function (d) {//randomly set the node's radius
+							var cnt=0;
+							for (var ic=0;ic<json.edges.length;ic++){
+								if(json.edges[ic].source.id==d.id){
+									//console.log(json.edges[ic].source.id);
+									//console.log(d.id);
+									cnt+=1;}
+								if(json.edges[ic].target.id==d.id){
+									cnt+=1;}
+							}
+							if(cnt<=2){
+								return cnt*3;
+							}
+							else if (cnt>2 && cnt<=10) {
+								return cnt*1.6;
+							}else if(cnt>10 && cnt<=20){
+								return cnt;
+							}
+							else if(cnt>20){
+								return cnt*0.8;
+							}
+						})
+						.style("fill", function(d, i) {
+						return colors(i);
+						})						
+						.call(force.drag);
+		console.log(node);
+		//show names;
+		node.on("mouseover",function (d) {
+			//tooltip's locationg.
+			var xPosition = parseFloat(d3.select(this).attr("cx"))+14;
+			var yPosition = parseFloat(d3.select(this).attr("cy"))-20;
+			
+			//Create the tooltip label
+			svg.append("text")
+			.attr("id", "tooltip")
+			.attr("x", xPosition)
+			.attr("y", yPosition)
+			.attr("text-anchor", "middle")
+			.attr("font-family", "sans-serif")
+			.attr("font-size", "11px")
+			.attr("font-weight", "bold")
+			.attr("fill", "black")
+			.text(d.name);
+			
+			var cn=document.getElementById(d.id);//get current node tag.
+			var tempR=cn.getAttribute("r");
+			    cn.setAttribute("r",tempR*1.5);//magnify the Radius when mouse is over this node.
+			    
+			for(var j=0;j<json.edges.length;j++){//highlight lines connected to this node.
+			
+					var templinks=document.getElementsByTagName("line");
+					for(var jl=0;jl<templinks.length;jl++){
+						var templink=templinks[jl];
+						if(templink.getAttribute("source")==d.id||templink.getAttribute("target")==d.id){
+						templink.style.strokeWidth=2.0;
+						templink.style.stroke="#FF0000";
+						}
+					}
+			}
+			
+		}).on("mouseout",function (d) {
+			//Remove the tooltip
+			d3.select("#tooltip").remove();
+			
+			var cn=document.getElementById(d.id);//reset the node's radius when mouse is out.
+				tempR=cn.getAttribute("r");
+			    cn.setAttribute("r",tempR/1.5);
+			    
+			for(var j=0;j<json.edges.length;j++){//reset relative lines' style.
+			
+					var templinks=document.getElementsByTagName("line");
+					for(var jl=0;jl<templinks.length;jl++){
+						var templink=templinks[jl];
+						if(templink.getAttribute("source")==d.id||templink.getAttribute("target")==d.id){
+						templink.style.strokeWidth=1.0;
+						templink.style.stroke="#ccc";
+						}
+					}
+			}
+		});
+						
+						
+	//Every time the simulation "ticks", this will be called
+	force.on("tick", function() {
+		edge.attr("x1", function(d) { return d.source.x; })
+				.attr("y1", function(d) { return d.source.y; })
+				.attr("x2", function(d) { return d.target.x; })
+				.attr("y2", function(d) { return d.target.y; });
+		node.attr("cx", function(d) { return d.x; })
+			.attr("cy", function(d) { return d.y; });
+	});
+});
+</script>
+</body>
+</html>
