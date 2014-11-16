@@ -1,3 +1,10 @@
+##Assignment3 link
+[https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3](https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3)
+
+__Attention, Final Score = 0.5 * Assigment2 + 0.5 Assignment3__
+
+the partition at the course website is not correct, please ensure.
+
 ##copyright
 __you can not use the source code before the final check by the teacher.__
 
@@ -10,15 +17,19 @@ We got __name__, __gender__, __account id__ and some other informations. But we 
 
 ##description
 *   we add [weight] to calculate the out-degree of a person, which shows all the friends of a person.The more friends you have, the deeper of color of black you will own.
-*   what's more, we add a function to search one's influence by someone's name. Once you hit the search button, we will show the name in another color, and you will see the influence by the different levels of balck of color.
-*   We use BFS method to add influence function.
-*   Calculate the [weight] by out-degree.
+*   what's more, we add a function to search one's influence by someone's name. Once you hit the search button, we will show the name in another color, and you will see the influence by the different levels of balck color.
+*   BFS method to add influence function.
 
 ##Online
-View our results at [http://yijia.ws/pages/force_new.html](http://yijia.ws/pages/force_new.html) online.
+View our results [here](http://yijia.ws/pages/force_new.html) online.
 
 ##offline
 To see all effects, we recommand you to use firefox. If you must use chrome, please set your local server.
 
 ex, for python, you can type: __python -m SimpleHTTPServer 8888__, then you can visit [http://localhost:8888](http://localhost:8888).
+
+##Assignment3
+[https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3](https://github.com/vis2014/Assignment3/tree/yijia_wangzhuo_A3)
+
+__Attention, Final Score = 0.5 * Assigment2 + 0.5 Assignment3__
 
