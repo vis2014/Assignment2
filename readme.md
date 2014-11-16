@@ -12,7 +12,7 @@ The file includes:
 + d3.js: D3 library.
 + style.css: define the appearance of the html.
 + force_layout.js: realize the power distribution of Naruto.
-+ screenshot: Some screenshots of our visualization.
++ forcelayoutdata.json:the data of our visualization.
 
 
 ###3. Description of our visualization
