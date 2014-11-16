@@ -12,9 +12,9 @@
 ###2. Creation:
 + This project based on the example on wiki.
 + What's new:
-+ a.The nodes will display an image now instead of a circle or rectangle.
-+ b.Some text will show on the nodes.
-+ c.Add some interactions:When the mouse point a node,some text will show beside the edges,some edges connect to the node will change color and the image of the node and other nodes connect to the node will become bigger.
++     a.The nodes will display an image now instead of a circle or rectangle.
++     b.Some text will show on the nodes.
++     c.Add some interactions:When the mouse point a node,some text will show beside the edges,some edges connect to the node         will change color and the image of the node and other nodes connect to the node will become bigger.
 
 ###3. Teammates:
 + 赵睿，张琦
