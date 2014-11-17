@@ -19,12 +19,15 @@ This is a visualization we have done to show the complex relationships among the
 + js/d3.js: D3 library
 + force_new.js: The javascript file to generate the force graph.
 + tree.js: The javascript file to generate the tree graph.
+
 ###3. Instruction and Interaction:
+
 ####Four different races
 + The first paragraph (tree.html) shows the different races in the world of warcraft, and which race does each hero belongs to.
 + The four races in Frozen Throne are Human, Night Elf, Orchid and Undead,there are also eight neutral heroes.    
 + We use the tree graph to show the race relationship because the tree graph can show classification easily.It is very easy to find out whether two heroes belong to the same race.
 + We add a link to the next graph at the top of the tree graph.
+
 ####The relationships among heroes
 + test.html shows the relationships among heroes.We use a force graph as a visualization.
 + We use heroes’ pictures to represent them. The different colors of heroes on the picture also represent different races. 
