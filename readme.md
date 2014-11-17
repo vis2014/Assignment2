@@ -10,8 +10,6 @@
 ###Data Description :
 + Our data is about the Four big families which had lived during the period of the Republic of China. The Four big families are Chiang family, Soong family, Kung family and Chen family. They were responsible for much of China's management of finance, politics, economy, and law. We describe the relationship of the Four big families and show the introductions of every family and every person on our webpage. We hope that people can learn about the knowledge intuitively.
  
-###Methodology :Empty!
- 
 ###Find Knowledge from the Visualization :
 + 1.We can learn about the introductions of every family and every person.
 + 2.We can learn about the relationship of the Four big families. And we can also learn about the principle members of every family.
