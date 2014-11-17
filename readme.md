@@ -5,7 +5,7 @@ This project utilize D3.js to visualize the network of American football games
 between Division IA colleges during regular season Fall 2000.
 
 
-##Notation
+##Notations
 The meaning of the nodes and edges are explained as following.
 
 * The nodes represent football team
