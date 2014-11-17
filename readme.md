@@ -13,4 +13,4 @@ We get the data in form of .dot, and translate it into json with [a java project
 
 ###4.Contact us
 Email: liyuepei14@mails.ucas.ac.cn
-Copyright @ LiYuepei & WangHailu.
+Copyright©2014 by LiYuepei & WangHailu.
