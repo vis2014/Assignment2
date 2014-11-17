@@ -1,0 +1,174 @@
+<svg width="431pt" height="398pt"
+     viewBox="14.40 7.20 416.40 391.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="graph1" class="graph" transform="scale(1 1) rotate(0) translate(18.4 387.2)">
+        <title>g</title>
+        <polygon fill="#f0f0ff" stroke="#f0f0ff" points="-4,5 -4,-380 399,-380 399,5 -4,5"/>
+        <text text-anchor="middle" x="197" y="-10.3" font-family="Arial Bold" font-size="13.00" fill="#0000a0"></text>
+        <!-- 1 -->
+        <g id="node2" class="node"><title>1</title>
+            <ellipse fill="none" stroke="black" cx="203" cy="-357" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="203" y="-353.9" font-family="Times Roman,serif" font-size="14.00">Wireless Networks</text>
+            <sizes size="1"/>
+        </g>
+        <!-- 2 -->
+        <g id="node4" class="node"><title>2</title>
+            <ellipse fill="none" stroke="black" cx="31" cy="-305" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="31" y="-301.9" font-family="Times Roman,serif" font-size="14.00">XPath Context-Aware web</text>
+            <sizes size="98"/>
+        </g>
+        <!-- 1&#45;&gt;2 -->
+        <g id="edge16" class="edge"><title>1&#45;&gt;2</title>
+            <path fill="none" stroke="black" d="M176.892,-351.386C150.987,-345.543 110.304,-335.63 76,-324 71.9341,-322.622 67.7166,-321.045 63.5663,-319.403"/>
+            <polygon fill="black" stroke="black" points="64.6872,-316.08 54.1074,-315.515 62.0257,-322.554 64.6872,-316.08"/>
+        </g>
+        <!-- 3 -->
+        <g id="node6" class="node"><title>3</title>
+            <ellipse fill="none" stroke="black" cx="121" cy="-305" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="121" y="-301.9" font-family="Times Roman,serif" font-size="14.00">sensor Breadcrumbs analyses</text>
+            <sizes size="54"/>
+        </g>
+        <!-- 1&#45;&gt;3 -->
+        <g id="edge18" class="edge"><title>1&#45;&gt;3</title>
+            <path fill="none" stroke="black" d="M182.73,-344.146C172.874,-337.896 160.85,-330.271 150.04,-323.416"/>
+            <polygon fill="black" stroke="black" points="151.64,-320.286 141.321,-317.886 147.891,-326.198 151.64,-320.286"/>
+        </g>
+        <!-- 4 -->
+        <g id="node8" class="node"><title>4</title>
+            <ellipse fill="none" stroke="black" cx="285" cy="-305" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="285" y="-301.9" font-family="Times Roman,serif" font-size="14.00">RDID tag deployment</text>
+            <sizes size="81"/>
+        </g>
+        <!-- 1&#45;&gt;4 -->
+        <g id="edge20" class="edge"><title>1&#45;&gt;4</title>
+            <path fill="none" stroke="black" d="M223.27,-344.146C233.126,-337.896 245.15,-330.271 255.96,-323.416"/>
+            <polygon fill="black" stroke="black" points="258.109,-326.198 264.679,-317.886 254.36,-320.286 258.109,-326.198"/>
+        </g>
+        <!-- 5 -->
+        <g id="node10" class="node"><title>5</title>
+            <ellipse fill="none" stroke="black" cx="207" cy="-253" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="207" y="-249.9" font-family="Times Roman,serif" font-size="14.00">web Internet RFID</text>
+            <sizes size="22"/>
+        </g>
+        <!-- 1&#45;&gt;5 -->
+        <g id="edge22" class="edge"><title>1&#45;&gt;5</title>
+            <path fill="none" stroke="black" d="M203.734,-337.925C204.33,-322.409 205.183,-300.251 205.867,-282.458"/>
+            <polygon fill="black" stroke="black" points="209.37,-282.434 206.257,-272.306 202.376,-282.165 209.37,-282.434"/>
+        </g>
+        <!-- 12 -->
+        <g id="node24" class="node"><title>12</title>
+            <ellipse fill="none" stroke="black" cx="367" cy="-45" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="367" y="-41.9" font-family="Times Roman,serif" font-size="14.00">sensor behavior dynamics</text>
+            <sizes size="176"/>
+        </g>
+        <!-- 1&#45;&gt;12 -->
+        <g id="edge34" class="edge"><title>1&#45;&gt;12</title>
+            <path fill="none" stroke="black" d="M229.531,-352.713C262.004,-347.028 314.583,-336.272 330,-324 357.84,-301.839 367,-288.583 367,-253 367,-253 367,-253 367,-149 367,-123.784 367,-95.1296 367,-74.2924"/>
+            <polygon fill="black" stroke="black" points="370.5,-74.168 367,-64.1681 363.5,-74.1681 370.5,-74.168"/>
+        </g>
+        <!-- 6 -->
+        <g id="node12" class="node"><title>6</title>
+            <ellipse fill="none" stroke="black" cx="117" cy="-253" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="117" y="-249.9" font-family="Times Roman,serif" font-size="14.00">sensor aggregation skyline</text>
+            <sizes size="148"/>
+        </g>
+        <!-- 3&#45;&gt;6 -->
+        <g id="edge24" class="edge"><title>3&#45;&gt;6</title>
+            <path fill="none" stroke="black" d="M119.533,-285.932C119.435,-284.661 119.336,-283.365 119.235,-282.059"/>
+            <polygon fill="black" stroke="black" points="122.723,-281.767 118.467,-272.065 115.744,-282.304 122.723,-281.767"/>
+        </g>
+        <!-- 4&#45;&gt;5 -->
+        <g id="edge42" class="edge"><title>4&#45;&gt;5</title>
+            <path fill="none" stroke="black" d="M265.317,-291.878C256.172,-285.781 245.131,-278.421 235.127,-271.751"/>
+            <polygon fill="black" stroke="black" points="236.938,-268.752 226.676,-266.118 233.055,-274.577 236.938,-268.752"/>
+        </g>
+        <!-- 13 -->
+        <g id="node26" class="node"><title>13</title>
+            <ellipse fill="none" stroke="black" cx="281" cy="-97" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="281" y="-93.9" font-family="Times Roman,serif" font-size="14.00">RFID CRFIds indoor</text>
+            <sizes size="37"/>
+        </g>
+        <!-- 4&#45;&gt;13 -->
+        <g id="edge40" class="edge"><title>4&#45;&gt;13</title>
+            <path fill="none" stroke="black" d="M284.631,-285.805C283.928,-249.276 282.395,-169.556 281.564,-126.309"/>
+            <polygon fill="black" stroke="black" points="285.06,-126.08 281.368,-116.149 278.061,-126.214 285.06,-126.08"/>
+        </g>
+        <!-- 8 -->
+        <g id="node16" class="node"><title>8</title>
+            <ellipse fill="none" stroke="black" cx="207" cy="-201" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="207" y="-197.9" font-family="Times Roman,serif" font-size="14.00">web Context-Aware usability</text>
+            <sizes size="22"/>
+        </g>
+        <!-- 5&#45;&gt;8 -->
+        <g id="edge44" class="edge"><title>5&#45;&gt;8</title>
+            <path fill="none" stroke="black" d="M207,-233.932C207,-232.802 207,-231.653 207,-230.494"/>
+            <polygon fill="black" stroke="black" points="210.5,-230.065 207,-220.065 203.5,-230.065 210.5,-230.065"/>
+            <sizes size="85"/>
+        </g>
+        <!-- 7 -->
+        <g id="node14" class="node"><title>7</title>
+            <ellipse fill="none" stroke="black" cx="27" cy="-201" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="27" y="-197.9" font-family="Times Roman,serif" font-size="14.00">approxmation sensor algorithms</text>
+            <sizes size="15"/>
+        </g>
+        <!-- 6&#45;&gt;7 -->
+        <g id="edge28" class="edge"><title>6&#45;&gt;7</title>
+            <path fill="none" stroke="black" d="M96.126,-240.939C84.5096,-234.228 69.848,-225.757 57.0198,-218.345"/>
+            <polygon fill="black" stroke="black" points="58.4822,-215.148 48.0726,-213.175 54.9803,-221.209 58.4822,-215.148"/>
+        </g>
+        <!-- 9 -->
+        <g id="node18" class="node"><title>9</title>
+            <ellipse fill="none" stroke="black" cx="117" cy="-201" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="117" y="-197.9" font-family="Times Roman,serif" font-size="14.00">Sensor Web Skyline</text>
+            <sizes size="277"/>
+        </g>
+        <!-- 6&#45;&gt;9 -->
+        <g id="edge26" class="edge"><title>6&#45;&gt;9</title>
+            <path fill="none" stroke="black" d="M117,-233.932C117,-232.802 117,-231.653 117,-230.494"/>
+            <polygon fill="black" stroke="black" points="120.5,-230.065 117,-220.065 113.5,-230.065 120.5,-230.065"/>
+        </g>
+        <!-- 10 -->
+        <g id="node20" class="node"><title>10</title>
+            <ellipse fill="none" stroke="black" cx="72" cy="-149" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="72" y="-145.9" font-family="Times Roman,serif" font-size="14.00">time-series trajectories subsequence</text>
+            <sizes size="82"/>
+        </g>
+        <!-- 7&#45;&gt;10 -->
+        <g id="edge30" class="edge"><title>7&#45;&gt;10</title>
+            <path fill="none" stroke="black" d="M41.2383,-184.547C44.3572,-180.943 47.722,-177.055 51.0418,-173.218"/>
+            <polygon fill="black" stroke="black" points="53.8027,-175.377 57.6999,-165.525 48.5095,-170.796 53.8027,-175.377"/>
+        </g>
+        <!-- 11 -->
+        <g id="node22" class="node"><title>11</title>
+            <ellipse fill="none" stroke="black" cx="207" cy="-149" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="207" y="-145.9" font-family="Times Roman,serif" font-size="14.00">Crowdsourcing CrowdSearch</text>
+            <sizes size="62"/>
+        </g>
+        <!-- 8&#45;&gt;11 -->
+        <g id="edge46" class="edge"><title>8&#45;&gt;11</title>
+            <path fill="none" stroke="black" d="M207,-181.932C207,-180.802 207,-179.653 207,-178.494"/>
+            <polygon fill="black" stroke="black" points="210.5,-178.065 207,-168.065 203.5,-178.065 210.5,-178.065"/>
+        </g>
+        <!-- 10&#45;&gt;13 -->
+        <g id="edge32" class="edge"><title>10&#45;&gt;13</title>
+            <path fill="none" stroke="black" d="M97.6275,-142.624C134.785,-133.379 203.752,-116.22 245.698,-105.783"/>
+            <polygon fill="black" stroke="black" points="246.631,-109.158 255.49,-103.347 244.941,-102.365 246.631,-109.158"/>
+        </g>
+        <!-- 13&#45;&gt;12 -->
+        <g id="edge38" class="edge"><title>13&#45;&gt;12</title>
+            <path fill="none" stroke="black" d="M301.818,-84.4123C312.593,-77.8972 325.927,-69.835 337.722,-62.7032"/>
+            <polygon fill="black" stroke="black" points="339.627,-65.6411 346.374,-57.4718 336.005,-59.651 339.627,-65.6411"/>
+        </g>
+        <!-- 14 -->
+        <g id="node28" class="node"><title>14</title>
+            <ellipse fill="none" stroke="black" cx="277" cy="-45" rx="27" ry="19.0919"/>
+            <text text-anchor="middle" x="277" y="-41.9" font-family="Times Roman,serif" font-size="14.00">sensors smartphones handset</text>
+            <sizes size="69">
+        </g>
+        <!-- 13&#45;&gt;14 -->
+        <g id="edge36" class="edge"><title>13&#45;&gt;14</title>
+            <path fill="none" stroke="black" d="M279.533,-77.9324C279.435,-76.6606 279.336,-75.365 279.235,-74.0589"/>
+            <polygon fill="black" stroke="black" points="282.723,-73.7674 278.467,-64.0653 275.744,-74.3043 282.723,-73.7674"/>
+        </g>
+
+    </g>
+</svg>
