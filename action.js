@@ -126,7 +126,7 @@ function update() {
     node.append("title").text(function(d){return d.name;});
 
 
-    vis.selectAll("g.node").append("text")
+    node.append("text")
         .attr("dx", 12)
         .attr("dy", ".35em")
         .text(function(d) { return d.name; });
