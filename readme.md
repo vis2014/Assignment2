@@ -9,7 +9,7 @@ between Division IA colleges during regular season Fall 2000.
 The meanings of the nodes and edges are explained as following.
 
 * The nodes represent football team
-* The nodes have values that indicate to which conferences they belong to
+* The nodes have values that indicate to which conferences they belong
 * The edges indicate that the two team in the edge used to be in one game.
 
 ##Team Members
