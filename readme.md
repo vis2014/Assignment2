@@ -12,6 +12,6 @@ The meaning of the nodes and edges are explained as following.
 * The nodes have values that indicate to which conferences they belong to
 * The edges indicate that the two team in the edge used to be in one game.
 
-##Team Member
+##Team Members
 * 杨涛 201428015059076
 * 王覃泳 201428015029053
