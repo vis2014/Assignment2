@@ -13,5 +13,5 @@ The meaning of the nodes and edges are explained as following.
 * The edges indicate that the two team in the edge used to be in one game.
 
 ##Team Members
-* 杨涛 201428015059076
+* 杨  涛 201428015059076
 * 王覃泳 201428015029053
