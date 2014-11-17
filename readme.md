@@ -3,7 +3,7 @@
 
 ###2. Package Description：
 + data: data.json,data with JSON format
-+ json: the document contains three files 
++ json: the document contains three files  
 >raw.csv,collecting raw data 
 >detail.xlsx,the description of raw data
 >TestJson.java,java code to generate data with JSON format from raw data. When using this code, you must give the directory of source and target files.
