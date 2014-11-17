@@ -1,0 +1,159 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>射雕三部曲之人物关系图</title>
+    <script type="text/javascript" src="D3/d3.js"></script>
+</head>
+<style type="text/css">
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor:pointer;
+}
+
+.nodetext {
+  fill: #000;
+  font-size:12px;
+  cursor:pointer;
+  pointer-events:none;
+ }
+</style>
+<body>
+    <img src="image/introduction.jpg" style="width: 900px; height: 35px" />
+<script type="text/javascript">
+    var width = 1200;
+    var height = 700;
+
+    //取得20个颜色的序列
+    var color = d3.scale.category20();
+
+    //定义画布
+    var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+    //定义力学结构
+    var force = d3.layout.force()
+		.charge(-150)
+		.linkDistance(100)
+		.size([width, height]);
+
+    //读取数据
+    d3.json("data/force.json", function (error, graph) {
+        force
+            .nodes(graph.nodes)
+            .links(graph.links)
+            .start();
+
+        //定义连线
+        var link = svg.selectAll("line")
+          .data(graph.links)
+          .enter()
+          .append("line")
+          .attr("class", "line")
+          .attr("stroke", "#09F")
+          .attr("stroke-opacity", "0.4")
+          .style("stroke-width", 1);
+
+        var edges_text = svg.selectAll(".linetext")
+                    .data(graph.links)
+                    .enter()
+                    .append("text")
+                    .attr("class", "linetext")
+                    .style("fill-opacity",0)
+                    .text(function (d) {
+                        return d.relation;
+                    });
+
+        //定义节点标记
+        var node = svg.selectAll(".node")
+          .data(graph.nodes)
+          .enter()
+          .append("g")
+          .call(force.drag);
+
+
+
+        //节点圆形标记
+        node.append("circle")
+          .attr("class", "node")
+          .attr("r", function (d)
+          {
+              return 10 + d.group;
+          })
+          .style("fill", function (d)
+          {
+              if (d.group % 5 == 1)
+                  return color(1);
+              if (d.group % 5 == 2)
+                  return color(2);
+              if (d.group % 5 == 3)
+                  return color(3);
+
+              return color(d.group%5+1);
+          });
+          
+
+
+
+        //标记鼠标悬停的标签
+        node.append("title")
+          .text(function (d) { return d.introduction+d.name; });
+
+        //****************************************************************************************************
+        node.on("mouseout", function (d) {
+            //隐去连接线上的文字
+            edges_text.style("fill-opacity", function (edge) {
+                return 0;
+            });
+        })
+        node.on("mouseover", function (d) {
+                //显示连接线上的文字
+            edges_text.style("fill-opacity", function (edge) {
+                if (edge.source == d || edge.target == d) {
+                        return 1.0;
+                }
+                else
+                    return 0.0;
+                });
+        });
+        
+        node.on("dblclick",function(d,i){
+            d.fixed = false;});
+        //****************************************************************************************************
+
+        //节点上显示的姓名
+        node.append("text")
+          .attr("dy", ".3em")
+          .attr("class", "nodetext")
+          .style("text-anchor", "middle")
+          .text(function (d) { return d.name; });
+
+        //固定
+         force.drag()
+			  .on("dragstart", function (d, i) {
+			      d.fixed = true;    //拖拽开始后设定被拖拽对象为固定
+			  })
+
+
+        //开始力学动作
+        force.on("tick", function () {
+            link.attr("x1", function (d) { return d.source.x; })
+                .attr("y1", function (d) { return d.source.y; })
+                .attr("x2", function (d) { return d.target.x; })
+                .attr("y2", function (d) { return d.target.y; });
+
+            //更新连接线上文字的位置
+            
+            edges_text.attr("x", function (d) { return (d.source.x + d.target.x) / 2; });
+            edges_text.attr("y", function (d) { return (d.source.y + d.target.y) / 2; });
+
+            node.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
+        });
+    });
+
+</script>
+</body>
+</html>
