@@ -1,0 +1,77 @@
+{
+    "nodes":[
+        {"id":0, "name": "Harry Potter"   , "image" : "image/Harry Potter", "description":"主角，是个瘦弱、戴眼镜的黑发少年，额头上有一个闪电形的伤疤，就像那些短时间内猛然拔高的孩子一样气色不太好。他是魔法学校五年级的学生，也是霍格沃茨的风云人物。自从伏地魔复活之后，他额头上的伤疤就常常令他灼痛不已。"},
+        {"id":1,"name": "Hermione Granger"   ,"image" : "image/Hermione Granger","description":"魔法学校里的高材生，和哈利、荣恩是学校里的三人组。" },
+        {"id":2,"name": "Ron Weasley"  , "image" : "image/Ron Weasley","description":"哈利在魔法学校结交的好友，是来自古老的魔法家族的儿子。" },
+        {"id":3, "name": "Albus Dumbledore" ,"image" : "image/Albus Dumbledore","description":"霍格沃茨魔法学校的校长。众人公认他是当代最伟大的巫师，戴著半月形的眼镜，银白色的胡须长到可以塞进腰带里，是令人敬仰的长辈。" },
+        {"id":4,"name": "Sirius Black" ,"image" : "image/SiriusBlack", "description":"阿兹卡班最恶名昭彰的囚犯，是不为人知的阿格马尼斯，可以随心所欲变成一只大黑狗，他是哈利·波特的教父。" },
+        {"id":5,  "name": "Ginny Weasley" , "image" : "image/Ginny Weasley","description":"罗恩的妹妹，有一头红发。她是魔法学校的新生，一直暗恋哈利·波特。" },
+        {"id":6, "name": "Cho Chang" , "image" : "image/Cho Chang" ,"description":"霍格华兹魔法学校五年级的学生，是雷文克劳学院魁地奇球队的搜捕手，是哈利波特暗恋的对象。"},
+        {"id":7, "name": "Rubeus Hagrid" , "image" : "image/Rubeus Hagrid","description":"艾德的次女。目前位于布拉佛斯，加入无面者组织。同时珍妮·普尔假扮成艾莉亚，并嫁给波顿家族的拉姆斯。冰原狼名为“娜梅莉亚”" },
+        {"id":8, "name": "Severus Snape" , "image" : "image/Severus Snape","description":"凤凰会的成员之一，在霍格华兹魔法学校教授魔药学，非常厌恶哈利。手臂上有食死人的标记，但不知为了什麼，邓不利多非常信任他。" },
+        {"id":9, "name": "Voldemort" , "image" : "image/Voldemort","description":"艾德的幼子。冰原狼名为“毛毛狗”。临冬城失守后，被认为已经死亡。目前躲藏于斯卡格斯岛。" },
+        {"id":10, "name": "Draco Malfoy" , "image" : "image/Draco Malfoy","description":"跋扈的富家子弟，跟哈利在魔法学校里是死对头。" }
+    ],
+    "edges":[
+
+
+
+        { "source": 0 , "target": 3 , "relation":"师生校长" },
+        { "source": 0 , "target": 4 , "relation":"教父" },
+        { "source": 0 , "target": 5 , "relation":"被暗恋" },
+        { "source": 0 , "target": 6 , "relation":"暗恋" },
+        { "source": 0 , "target": 7 , "relation":"亦师亦友" },
+        { "source": 0 , "target": 8 , "relation":"亦师亦敌亦友" },
+        { "source": 0 , "target": 10 , "relation":"敌对" },
+
+        { "source": 1 , "target": 0 , "relation":"生死之交" },
+        { "source": 1 , "target": 2 , "relation":"朋友/夫妻" },
+        { "source": 1 , "target": 3 , "relation":"师生校长" },
+        { "source": 1 , "target": 4 , "relation":"朋友" },
+        { "source": 1 , "target": 10 , "relation":"敌对" },
+
+        { "source": 2 , "target": 0 , "relation":"生死之交" },
+        { "source": 2 , "target": 1 , "relation":"朋友/夫妻" },
+        { "source": 2 , "target": 3 , "relation":"师生校长" },
+        { "source": 2 , "target": 4 , "relation":"朋友" },
+        { "source": 2 , "target": 10 , "relation":"敌对" },
+        { "source": 2 , "target": 9 , "relation":"死敌" },
+
+        { "source": 3 , "target": 0 , "relation":"师生校长" },
+        { "source": 3 , "target": 1 , "relation":"师生校长" },
+        { "source": 3 , "target": 2 , "relation":"师生校长" },
+        { "source": 3 , "target": 4 , "relation":"朋友" },
+        { "source": 3 , "target": 7 , "relation":"朋友" },
+
+
+        { "source": 7 , "target": 0 , "relation":"亦师亦友" },
+        { "source": 7 , "target": 1 , "relation":"亦师亦友" },
+        { "source": 7 , "target": 2 , "relation":"亦师亦友" },
+        { "source": 7 , "target": 3 , "relation":"朋友" },
+        { "source": 7 , "target": 4 , "relation":"朋友" },
+        { "source": 7 , "target": 8 , "relation":"同事" },
+
+
+        { "source": 8 , "target": 0 , "relation":"亦师亦敌亦友" },
+        { "source": 8 , "target": 1 , "relation":"亦师亦敌亦友" },
+        { "source": 8 , "target": 2 , "relation":"亦师亦敌亦友" },
+        { "source": 8 , "target": 3 , "relation":"朋友/敌对" },
+        { "source": 8 , "target": 4 , "relation":"朋友" },
+        { "source": 8 , "target": 7 , "relation":"同事" },
+
+
+
+        { "source": 9 , "target": 0 , "relation":"死敌" },
+        { "source": 9 , "target": 1 , "relation":"死敌" },
+        { "source": 9 , "target": 2 , "relation":"死敌" },
+        { "source": 9 , "target": 3 , "relation":"死敌" },
+        { "source": 9 , "target": 4 , "relation":"死敌" },
+        { "source": 9 , "target": 5 , "relation":"死敌" },
+        { "source": 9 , "target": 6 , "relation":"死敌" },
+        { "source": 9 , "target": 7, "relation":"死敌" },
+        { "source": 9 , "target": 8 , "relation":"明友暗敌" },
+        { "source": 9 , "target": 10 , "relation":"上级" }
+
+
+    ]
+}

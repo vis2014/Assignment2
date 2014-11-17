@@ -1,0 +1,27 @@
+<html>
+
+<!-- -->
+<head>
+    <meta charset="utf-8">
+    <title>Relationship in HarryPotter</title>
+    <script src="d3.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="css/Harrypotter.css"/>
+</head>
+<body>
+<div id="tooltip" class="hidden">
+    <p><strong>人物介绍</strong></p>
+
+    <p><span id="value"></span></p>
+</div>
+<strong>Colorful image:</strong>
+<select name="picStyle" id="picStyle" onchange="refresh()">
+    <option value="rectangle" selected><strong>real</strong></option>
+    <option value="cartoon"><strong>cartoon</strong></option>
+    <!--<option value="circle"><strong>circle</strong></option>-->
+</select>
+
+<input type="button" class = "button" value="Apply" onclick = "reload()"/>
+<strong>Note:lvweimin do this work alone</strong>
+<script src="Harrypotter.js" charset="utf-8"></script>
+</body>
+</html>
