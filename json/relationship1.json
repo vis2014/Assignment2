@@ -1,0 +1,23 @@
+{
+    "name":"person",
+    "children":
+        [
+            {
+                "name": "face",
+                "children": [
+                    {
+                        "name": "eye1"
+                    },
+                    {
+                        "name": "eye2"
+                    },
+                    {
+                        "name": "lip"
+                    },
+                    {
+                        "name": "nose"
+                    }
+                ]
+            }
+        ]
+}  
