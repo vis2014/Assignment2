@@ -1,6 +1,6 @@
 ﻿# Dynamic map of China
  
-###1. Link to Assignmen2:
+###1. Link to Assignment2:
 (http://211.147.15.14/UCAS_14_Fall/index.php/Zhangyuan_Mazhenzhen_A2).
 
 ###2. Dataset:
