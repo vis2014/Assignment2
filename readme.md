@@ -1,23 +1,24 @@
-#下面介绍github的使用方法：
-###1. github地址：[Assignment2](https://github.com/vis2014/Assignment2).
+﻿#Assignment II: Network of Trade Partnership 
+###1.GitHub Link: https://github.com/vis2014/Assignment2/tree/YangLan_SongYunhong_A2
 
-###2. 安装git：
-+ git工具用来获取远程代码以及提交代码。
-+ 下载地址： [git](http://git-scm.com/downloads) 。
+###2.Introduction
++This is our first time to design a network visualization. Thus, we learnt the examples on the D3 and searched data on the Internet at first. Then the relationship between trade partnership and GDP of nations attracts us. We use ''Webstorm'' to fulfill our network visualization. From it, we can get the information about trade relationship among over 50 nations in 2011 more directly. What's more, we draw some conclusion through it.
 
-###3. 获取github上的代码：
-+ 在一个单独的文件夹中，例如E:\git，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git clone https://github.com/vis2014/Assignment2.git		//克隆代码,username是vis2014@163.com, password是vis_2014
-+ cd Assignment2		//进入文件夹Assignment2
-+ git checkout -b *local_name* origin/master	//创建自己的分支，*注意*：local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2 
+###3.Data Source
++ Data Source:http://data.worldbank.org/
++ We found the data of trade partnership and GDP rank on the World Bank. First, we chose nations whose GDP ranks in the top 50.Then we find out them main import partners and reduce redundant data. Finally, we transformed the data to "nation_trade.json".  
 
-###4. 在Assignment2文件夹中放入自己的完整的代码，包括引用的javascript库等
+###4.Package Description
++data.xlsx:the original data.
++d3.js:D3 library.
++nation_trade.css:CSS of the network visualization and the main page.
++nation_trade.html:the html to embed D3 script.
++nation_trade.js:the D3 script to read network data and create visualization.
++nation_trade.json:data of trade partnership.
 
-###5. 修改readme.md文件，在该文件里写作业的介绍，编写该文件使用的是markdown语法，可以上网上查语法格式，也可以参考这篇文章[markdown语法说明](http://wowubuntu.com/markdown/basic.html)
+###5.Visualization Usage
++In the visualization, each dot stands for a nation. When you change the screening conditions, the visualization would change.
++When you put the mouse on the dot, the color of dot would become black. And the dot of color would become the former when the mouse leaves.
++When you select one dot, the edges between the dot and the dots related to it would become dark. Meanwhile, the size of the selected dot rises to twice and the size of dots that stands for nations importing from it also do.
++You can drag dots to see the details of visualization more clearly.
 
-###6. 在以上步骤完成之后可以上传代码，按住shift同时右键，选择在此处打开命令窗口。依次输入以下命令
-+ git add . 	//添加文件
-+ git commit -m "注释" //提交到本地
-+ git push origin *local_name*	//*注意*：和第三步一样，local_name替换为自己的名字，格式为LastnameFirstname_LastnameFirstname_A2，要和上面的local_name保持一致,username是vis2014@163.com, password是vis_2014
-
-###7. 这时再次查看github的代码，[Assignment2](https://github.com/vis2014/Assignment2)，在自己的分支里就可以看到自己的代码了
