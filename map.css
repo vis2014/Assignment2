@@ -1,0 +1,9 @@
+div#header {background-color:#EfEffE;font: 28px; text-align: center;}
+.link {
+    stroke: #ccc;
+    stroke-width: 1;
+}
+.node {
+    stroke: #000;
+    stroke-width: 1;
+}
