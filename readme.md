@@ -9,7 +9,7 @@
 	+ detail.xlsx: the description of raw data   
 	+ TestJson.java: java code to generate data with JSON format from raw data. When using this code, you must give the directory of source and target files.
  
-+ screenshot: some screenshots of final visualization.  
++ screenshot: some screenshots of final visualization. 
 + script.js: script using javascript and d3.  
 + style.css: css design  
 + assignment2.html: file to generate final visualization.  
